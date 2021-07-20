@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{444D6D43-2775-4C3F-89C0-3B3FD399C17F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SwebuiDemo</RootNamespace>
+    <AssemblyName>SwebuiDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Swebui.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c0fe134bbc911c57, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Swebui Designer\Library\Swebui.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Swebui.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c28d201d12639a97, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Swebui Designer\Library\Swebui.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Swebui.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f1ac7264a7cfc183, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Swebui Designer\Library\Swebui.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DemoGlobal.cs" />
+    <Compile Include="Demo\demoPlugins.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoPlugins.Designer.cs">
+      <DependentUpon>demoPlugins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo\demoPDFAndHtml.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoPDFAndHtml.Designer.cs">
+      <DependentUpon>demoPDFAndHtml.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo\demoUserTemplate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoUserTemplate.Designer.cs">
+      <DependentUpon>demoUserTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo\demoWeb.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoWeb.Designer.cs">
+      <DependentUpon>demoWeb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo\demoMap.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoMap.Designer.cs">
+      <DependentUpon>demoMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo\demoGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoGrid.Designer.cs">
+      <DependentUpon>demoGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo\demoListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoListView.Designer.cs">
+      <DependentUpon>demoListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo\demoListViewTemplate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoListViewTemplate.Designer.cs">
+      <DependentUpon>demoListViewTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo\demoTemplate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoTemplate.Designer.cs">
+      <DependentUpon>demoTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SwebForm1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SwebForm1.Designer.cs">
+      <DependentUpon>SwebForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SwebGlobal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Demo\demoPlugins.resx">
+      <DependentUpon>demoPlugins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\demoPDFAndHtml.resx">
+      <DependentUpon>demoPDFAndHtml.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\demoUserTemplate.resx">
+      <DependentUpon>demoUserTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\demoWeb.resx">
+      <DependentUpon>demoWeb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\demoMap.resx">
+      <DependentUpon>demoMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\demoGrid.resx">
+      <DependentUpon>demoGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\demoListView.resx">
+      <DependentUpon>demoListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\demoListViewTemplate.resx">
+      <DependentUpon>demoListViewTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\demoTemplate.resx">
+      <DependentUpon>demoTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SwebForm1.resx">
+      <DependentUpon>SwebForm1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

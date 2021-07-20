@@ -1,0 +1,15 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs
+/src/SwebuiDemo/bin/Debug/DeveloperTrace
+/src/SwebuiDemo/bin/Debug/Swebui.Core.xml
+/src/SwebuiDemo/bin/Debug/Swebui.Core.dll
+/src/SwebuiDemo/bin/Debug/Swebui.Controls.xml
+/src/SwebuiDemo/bin/Debug/Swebui.Controls.dll
+/src/SwebuiDemo/bin/Debug/Setting.config
+/src/SwebuiDemo/bin/Debug/SwebuiDemo.exe.config
+/src/SwebuiDemo/bin/Debug/SwebuiDemo.exe
+/src/SwebuiDemo/bin/Debug/Swebui.Design.dll
+/src/SwebuiDemo/obj
