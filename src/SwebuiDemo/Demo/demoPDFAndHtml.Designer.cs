@@ -29,10 +29,10 @@ namespace SwebuiDemo.Demo
         {
             this.panel1 = new Swebui.Controls.Panel();
             this.label1 = new Swebui.Controls.Label();
+            this.pdfView1 = new Swebui.Controls.PDFView();
             this.panel2 = new Swebui.Controls.Panel();
             this.label2 = new Swebui.Controls.Label();
             this.htmlView1 = new Swebui.Controls.HTMLView();
-            this.pdfView1 = new Swebui.Controls.PDFView();
             // 
             // panel1
             // 
@@ -48,6 +48,13 @@ namespace SwebuiDemo.Demo
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 35);
             this.label1.Text = "PDFView";
+            // 
+            // pdfView1
+            // 
+            this.pdfView1.Flex = 1;
+            this.pdfView1.Name = "pdfView1";
+            this.pdfView1.ResourceID = "нд╪Ч_1";
+            this.pdfView1.Size = new System.Drawing.Size(0, 300);
             // 
             // panel2
             // 
@@ -69,14 +76,6 @@ namespace SwebuiDemo.Demo
             this.htmlView1.Flex = 1;
             this.htmlView1.Name = "htmlView1";
             this.htmlView1.Size = new System.Drawing.Size(0, 255);
-            // 
-            // pdfView1
-            // 
-            this.pdfView1.Flex = 1;
-            this.pdfView1.Name = "pdfView1";
-            this.pdfView1.ResourceID = "http://ask.searching-info.com:8338/data/ueditor/php/upload/file/20210607/16230456" +
-    "41814788.pdf";
-            this.pdfView1.Size = new System.Drawing.Size(0, 300);
             // 
             // demoPDFAndHtml
             // 
