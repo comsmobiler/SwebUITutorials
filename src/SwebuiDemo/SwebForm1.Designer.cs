@@ -33,7 +33,7 @@ namespace SwebuiDemo
             // 
             // palMenu
             // 
-            this.palMenu.BackColor = System.Drawing.Color.DarkBlue;
+            this.palMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(64)))), ((int)(((byte)(80)))));
             this.palMenu.Controls.AddRange(new Swebui.Controls.SwebControl[] {
             this.palUser,
             this.menuView1});
@@ -50,25 +50,29 @@ namespace SwebuiDemo
             // 
             // image1
             // 
+            this.image1.Margin = new Swebui.Controls.Margin(10F, 0F, 0F, 0F);
             this.image1.Name = "image1";
-            this.image1.ResouceData = null;
-            this.image1.ResourceID = "logo";
+            this.image1.ResourceID = "logo.png";
             this.image1.Size = new System.Drawing.Size(70, 50);
             this.image1.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
             // 
             // Label1
             // 
             this.Label1.ForeColor = System.Drawing.Color.White;
+            this.Label1.Margin = new Swebui.Controls.Margin(10F, 0F, 0F, 0F);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(0, 50);
             this.Label1.Text = "管理员";
+            this.Label1.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // menuView1
             // 
+            this.menuView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(64)))), ((int)(((byte)(80)))));
             this.menuView1.DefaultIcon = "tasks";
             this.menuView1.Flex = 1;
             this.menuView1.Name = "menuView1";
             this.menuView1.Size = new System.Drawing.Size(0, 0);
+            this.menuView1.Theme = Swebui.Controls.MenuViewTheme.Dark;
             this.menuView1.MenuItemClick += new Swebui.Controls.MenuViewItemClickEventHandler(this.menuView1_MenuItemClick);
             // 
             // panel1
@@ -94,11 +98,11 @@ namespace SwebuiDemo
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(179)))), ((int)(((byte)(148)))));
+            this.button1.IconName = "fa fa-bars";
             this.button1.Name = "button1";
             this.button1.NumberOfLines = 0;
-            this.button1.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
-            this.button1.Size = new System.Drawing.Size(100, 35);
-            this.button1.Text = "Toggle";
+            this.button1.Size = new System.Drawing.Size(51, 35);
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Label2
@@ -111,9 +115,9 @@ namespace SwebuiDemo
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(179)))), ((int)(((byte)(148)))));
             this.button2.Name = "button2";
             this.button2.NumberOfLines = 0;
-            this.button2.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button2.Size = new System.Drawing.Size(100, 35);
             this.button2.Text = "退出";
             // 

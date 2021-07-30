@@ -32,15 +32,15 @@ namespace SwebuiDemo.Demo
             // listView1
             // 
             this.listView1.Flex = 1;
+            this.listView1.Margin = new Swebui.Controls.Margin(10F);
             this.listView1.Name = "listView1";
             this.listView1.PageSizeTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
             this.listView1.Size = new System.Drawing.Size(0, 300);
             // 
-            // demoTemplate
+            // demoListView
             // 
             this.Controls.AddRange(new Swebui.Controls.SwebControl[] {
             this.listView1});
-            this.Name = "demoListView";
             this.Load += new System.EventHandler(this.demoTemplate_Load);
 
         }

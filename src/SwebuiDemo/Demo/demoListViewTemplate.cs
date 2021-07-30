@@ -9,5 +9,9 @@ namespace SwebuiDemo.Demo
     //[System.ComponentModel.ToolboxItem(true)]
     partial class demoListViewTemplate : SwebUserControl
     {
+        private void demoMap_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

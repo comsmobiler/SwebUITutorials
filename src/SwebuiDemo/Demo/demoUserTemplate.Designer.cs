@@ -30,309 +30,223 @@ namespace SwebuiDemo.Demo
             Swebui.Controls.ComboBoxItem comboBoxItem1 = new Swebui.Controls.ComboBoxItem();
             Swebui.Controls.ComboBoxItem comboBoxItem2 = new Swebui.Controls.ComboBoxItem();
             Swebui.Controls.ComboBoxItem comboBoxItem3 = new Swebui.Controls.ComboBoxItem();
-            Swebui.Controls.ComboBoxItem comboBoxItem4 = new Swebui.Controls.ComboBoxItem();
-            Swebui.Controls.ComboBoxItem comboBoxItem5 = new Swebui.Controls.ComboBoxItem();
-            Swebui.Controls.ComboBoxItem comboBoxItem6 = new Swebui.Controls.ComboBoxItem();
-            Swebui.Controls.ComboBoxItem comboBoxItem7 = new Swebui.Controls.ComboBoxItem();
-            Swebui.Controls.ComboBoxItem comboBoxItem8 = new Swebui.Controls.ComboBoxItem();
-            Swebui.Controls.ComboBoxItem comboBoxItem9 = new Swebui.Controls.ComboBoxItem();
+            Swebui.Controls.TreeViewNode treeViewNode1 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode2 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode3 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode4 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode5 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode6 = new Swebui.Controls.TreeViewNode();
             this.panel1 = new Swebui.Controls.Panel();
             this.label1 = new Swebui.Controls.Label();
-            this.panel2 = new Swebui.Controls.Panel();
-            this.label2 = new Swebui.Controls.Label();
-            this.textBox1 = new Swebui.Controls.TextBox();
-            this.panel3 = new Swebui.Controls.Panel();
-            this.label3 = new Swebui.Controls.Label();
-            this.textBox2 = new Swebui.Controls.TextBox();
-            this.panel4 = new Swebui.Controls.Panel();
-            this.label4 = new Swebui.Controls.Label();
-            this.textBox3 = new Swebui.Controls.TextBox();
-            this.label5 = new Swebui.Controls.Label();
             this.panel5 = new Swebui.Controls.Panel();
-            this.label6 = new Swebui.Controls.Label();
-            this.textBox4 = new Swebui.Controls.TextBox();
-            this.panel6 = new Swebui.Controls.Panel();
-            this.label7 = new Swebui.Controls.Label();
-            this.panel7 = new Swebui.Controls.Panel();
-            this.label8 = new Swebui.Controls.Label();
             this.comboBox1 = new Swebui.Controls.ComboBox();
-            this.comboBox2 = new Swebui.Controls.ComboBox();
+            this.textBox1 = new Swebui.Controls.TextBox();
+            this.button2 = new Swebui.Controls.Button();
+            this.panel4 = new Swebui.Controls.Panel();
+            this.panel2 = new Swebui.Controls.Panel();
+            this.button1 = new Swebui.Controls.Button();
+            this.button4 = new Swebui.Controls.Button();
+            this.panel3 = new Swebui.Controls.Panel();
+            this.treeView1 = new Swebui.Controls.TreeView();
+            this.panel6 = new Swebui.Controls.Panel();
+            this.gridView1 = new Swebui.Controls.GridView();
             // 
             // panel1
             // 
             this.panel1.Controls.AddRange(new Swebui.Controls.SwebControl[] {
             this.label1,
-            this.panel2,
-            this.panel3,
-            this.panel4,
-            this.label5,
             this.panel5,
-            this.panel6,
-            this.panel7});
-            this.panel1.Flex = 1;
+            this.comboBox1,
+            this.textBox1,
+            this.button2});
+            this.panel1.Direction = Swebui.Controls.LayoutDirection.Row;
+            this.panel1.ItemAlign = Swebui.Controls.LayoutItemAlign.Center;
             this.panel1.Name = "panel1";
-            this.panel1.Padding = new Swebui.Controls.Padding(50F, 10F, 50F, 10F);
-            this.panel1.Scrollable = true;
-            this.panel1.Size = new System.Drawing.Size(0, 0);
-            this.panel1.Wrap = Swebui.Controls.LayoutWrap.Wrap;
+            this.panel1.Overflow = Swebui.Controls.LayoutOverflow.Hidden;
+            this.panel1.Size = new System.Drawing.Size(0, 35);
             // 
             // label1
             // 
-            this.label1.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
-            this.label1.BorderColor = System.Drawing.Color.LightGray;
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(144)))), ((int)(((byte)(210)))));
+            this.label1.FontSize = 24F;
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 40);
-            this.label1.Text = "主要信息";
-            this.label1.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            this.label1.Size = new System.Drawing.Size(100, 26);
+            this.label1.Text = "用户列表";
+            // 
+            // panel5
+            // 
+            this.panel5.Flex = 1;
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(300, 20);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Border = new Swebui.Controls.Border(1F, 1F, 1F, 0F);
+            this.comboBox1.BorderColor = System.Drawing.Color.WhiteSmoke;
+            comboBoxItem1.Id = "1";
+            comboBoxItem1.Text = "最多显示10";
+            comboBoxItem2.Id = "2";
+            comboBoxItem2.Text = "最多显示20";
+            comboBoxItem3.Id = "3";
+            comboBoxItem3.Text = "不限制";
+            this.comboBox1.Items.AddRange(new Swebui.Controls.ComboBoxItem[] {
+            comboBoxItem1,
+            comboBoxItem2,
+            comboBoxItem3});
+            this.comboBox1.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.placeholder = "";
+            this.comboBox1.PopupHeight = 0;
+            this.comboBox1.Size = new System.Drawing.Size(150, 30);
+            this.comboBox1.Text = "";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Transparent;
+            this.textBox1.Border = new Swebui.Controls.Border(1F);
+            this.textBox1.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(150, 30);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(179)))), ((int)(((byte)(148)))));
+            this.button2.Name = "button2";
+            this.button2.NumberOfLines = 0;
+            this.button2.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
+            this.button2.Size = new System.Drawing.Size(0, 26);
+            this.button2.Text = "搜索";
+            // 
+            // panel4
+            // 
+            this.panel4.Flex = 1;
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(0, 0);
             // 
             // panel2
             // 
             this.panel2.Controls.AddRange(new Swebui.Controls.SwebControl[] {
-            this.label2,
-            this.textBox1});
+            this.button1,
+            this.button4});
             this.panel2.Direction = Swebui.Controls.LayoutDirection.Row;
             this.panel2.ItemAlign = Swebui.Controls.LayoutItemAlign.Center;
-            this.panel2.Margin = new Swebui.Controls.Margin(0F, 10F, 0F, 0F);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(0, 40);
+            this.panel2.Size = new System.Drawing.Size(0, 35);
             // 
-            // label2
+            // button1
             // 
-            this.label2.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Right;
-            this.label2.Margin = new Swebui.Controls.Margin(0F, 0F, 20F, 0F);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 0);
-            this.label2.Text = "用户名";
-            this.label2.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Border = new Swebui.Controls.Border(1F);
+            this.button1.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.button1.ForeColor = System.Drawing.Color.DimGray;
+            this.button1.IconName = "fa fa-plus";
+            this.button1.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
+            this.button1.Name = "button1";
+            this.button1.NumberOfLines = 0;
+            this.button1.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
+            this.button1.Size = new System.Drawing.Size(0, 26);
+            this.button1.Text = "新增";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // button4
             // 
-            this.textBox1.Border = new Swebui.Controls.Border(1F);
-            this.textBox1.BorderColor = System.Drawing.Color.LightGray;
-            this.textBox1.BorderRadius = 8;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(300, 30);
-            this.textBox1.Text = "admin";
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.Border = new Swebui.Controls.Border(1F);
+            this.button4.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.button4.ForeColor = System.Drawing.Color.DimGray;
+            this.button4.IconName = "fa fa-pencil-square-o";
+            this.button4.Name = "button4";
+            this.button4.NumberOfLines = 0;
+            this.button4.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
+            this.button4.Size = new System.Drawing.Size(0, 26);
+            this.button4.Text = "编辑";
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel3.Controls.AddRange(new Swebui.Controls.SwebControl[] {
-            this.label3,
-            this.textBox2});
+            this.treeView1,
+            this.panel6});
             this.panel3.Direction = Swebui.Controls.LayoutDirection.Row;
-            this.panel3.ItemAlign = Swebui.Controls.LayoutItemAlign.Center;
-            this.panel3.Margin = new Swebui.Controls.Margin(0F, 10F, 0F, 0F);
+            this.panel3.Flex = 1;
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(0, 40);
+            this.panel3.Overflow = Swebui.Controls.LayoutOverflow.Hidden;
+            this.panel3.Size = new System.Drawing.Size(0, 100);
             // 
-            // label3
+            // treeView1
             // 
-            this.label3.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Right;
-            this.label3.Margin = new Swebui.Controls.Margin(0F, 0F, 20F, 0F);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 0);
-            this.label3.Text = "密码";
-            this.label3.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Border = new Swebui.Controls.Border(1F);
-            this.textBox2.BorderColor = System.Drawing.Color.LightGray;
-            this.textBox2.BorderRadius = 8;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.SecurityMode = true;
-            this.textBox2.Size = new System.Drawing.Size(300, 30);
-            this.textBox2.Text = "admin";
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.AddRange(new Swebui.Controls.SwebControl[] {
-            this.label4,
-            this.textBox3});
-            this.panel4.Direction = Swebui.Controls.LayoutDirection.Row;
-            this.panel4.ItemAlign = Swebui.Controls.LayoutItemAlign.Center;
-            this.panel4.Margin = new Swebui.Controls.Margin(0F, 10F, 0F, 0F);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(0, 40);
-            // 
-            // label4
-            // 
-            this.label4.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Right;
-            this.label4.Margin = new Swebui.Controls.Margin(0F, 0F, 20F, 0F);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 0);
-            this.label4.Text = "邮箱";
-            this.label4.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Border = new Swebui.Controls.Border(1F);
-            this.textBox3.BorderColor = System.Drawing.Color.LightGray;
-            this.textBox3.BorderRadius = 8;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(300, 30);
-            this.textBox3.Text = "123456@qq.com";
-            // 
-            // label5
-            // 
-            this.label5.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
-            this.label5.BorderColor = System.Drawing.Color.LightGray;
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(144)))), ((int)(((byte)(210)))));
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 40);
-            this.label5.Text = "其他信息";
-            this.label5.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.AddRange(new Swebui.Controls.SwebControl[] {
-            this.label6,
-            this.textBox4});
-            this.panel5.Direction = Swebui.Controls.LayoutDirection.Row;
-            this.panel5.ItemAlign = Swebui.Controls.LayoutItemAlign.Center;
-            this.panel5.Margin = new Swebui.Controls.Margin(0F, 10F, 0F, 0F);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(0, 40);
-            // 
-            // label6
-            // 
-            this.label6.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Right;
-            this.label6.Margin = new Swebui.Controls.Margin(0F, 0F, 20F, 0F);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 0);
-            this.label6.Text = "职业";
-            this.label6.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Border = new Swebui.Controls.Border(1F);
-            this.textBox4.BorderColor = System.Drawing.Color.LightGray;
-            this.textBox4.BorderRadius = 8;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(300, 30);
+            this.treeView1.BackColor = System.Drawing.Color.White;
+            this.treeView1.Name = "treeView1";
+            treeViewNode2.Text = "男";
+            treeViewNode2.TreeID = "1";
+            treeViewNode3.Text = "女";
+            treeViewNode3.TreeID = "2";
+            treeViewNode1.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode2,
+            treeViewNode3});
+            treeViewNode1.Text = "用户性别";
+            treeViewNode1.TreeID = "1";
+            treeViewNode5.Text = "激活";
+            treeViewNode5.TreeID = "1";
+            treeViewNode6.Text = "未激活";
+            treeViewNode6.TreeID = "2";
+            treeViewNode4.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode5,
+            treeViewNode6});
+            treeViewNode4.Text = "用户状态";
+            treeViewNode4.TreeID = "2";
+            this.treeView1.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode1,
+            treeViewNode4});
+            this.treeView1.Size = new System.Drawing.Size(150, 0);
+            this.treeView1.Press += new Swebui.Controls.TreeView.TreeViewOnPressEventHandler(this.treeView1_Press);
             // 
             // panel6
             // 
             this.panel6.Controls.AddRange(new Swebui.Controls.SwebControl[] {
-            this.label7,
-            this.comboBox1});
-            this.panel6.Direction = Swebui.Controls.LayoutDirection.Row;
-            this.panel6.ItemAlign = Swebui.Controls.LayoutItemAlign.Center;
-            this.panel6.Margin = new Swebui.Controls.Margin(0F, 10F, 0F, 0F);
+            this.gridView1});
+            this.panel6.Flex = 1;
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(0, 40);
+            this.panel6.Size = new System.Drawing.Size(300, 0);
             // 
-            // label7
+            // gridView1
             // 
-            this.label7.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Right;
-            this.label7.Margin = new Swebui.Controls.Margin(0F, 0F, 20F, 0F);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 0);
-            this.label7.Text = "职位";
-            this.label7.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.AddRange(new Swebui.Controls.SwebControl[] {
-            this.label8,
-            this.comboBox2});
-            this.panel7.Direction = Swebui.Controls.LayoutDirection.Row;
-            this.panel7.ItemAlign = Swebui.Controls.LayoutItemAlign.Center;
-            this.panel7.Margin = new Swebui.Controls.Margin(0F, 10F, 0F, 0F);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(0, 40);
-            // 
-            // label8
-            // 
-            this.label8.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Right;
-            this.label8.Margin = new Swebui.Controls.Margin(0F, 0F, 20F, 0F);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(100, 0);
-            this.label8.Text = "学历";
-            this.label8.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BorderColor = System.Drawing.Color.LightGray;
-            this.comboBox1.BorderRadius = 8;
-            comboBoxItem1.Id = "1";
-            comboBoxItem1.Text = "销售人员";
-            comboBoxItem2.Id = "2";
-            comboBoxItem2.Text = "开发人员";
-            comboBoxItem3.Id = "3";
-            comboBoxItem3.Text = "销售经理";
-            comboBoxItem4.Id = "4";
-            comboBoxItem4.Text = "开发经理";
-            this.comboBox1.Items.AddRange(new Swebui.Controls.ComboBoxItem[] {
-            comboBoxItem1,
-            comboBoxItem2,
-            comboBoxItem3,
-            comboBoxItem4});
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.placeholder = "请选择";
-            this.comboBox1.PopupHeight = 0;
-            this.comboBox1.Size = new System.Drawing.Size(300, 30);
-            this.comboBox1.Text = "";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.BorderColor = System.Drawing.Color.LightGray;
-            this.comboBox2.BorderRadius = 8;
-            comboBoxItem5.Id = "1";
-            comboBoxItem5.Text = "高中";
-            comboBoxItem6.Id = "2";
-            comboBoxItem6.Text = "专科";
-            comboBoxItem7.Id = "3";
-            comboBoxItem7.Text = "本科";
-            comboBoxItem8.Id = "4";
-            comboBoxItem8.Text = "硕士";
-            comboBoxItem9.Id = "5";
-            comboBoxItem9.Text = "博士";
-            this.comboBox2.Items.AddRange(new Swebui.Controls.ComboBoxItem[] {
-            comboBoxItem5,
-            comboBoxItem6,
-            comboBoxItem7,
-            comboBoxItem8,
-            comboBoxItem9});
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.placeholder = "请选择";
-            this.comboBox2.PopupHeight = 0;
-            this.comboBox2.Size = new System.Drawing.Size(300, 30);
-            this.comboBox2.Text = "";
+            this.gridView1.AllowPaging = true;
+            this.gridView1.DataSource = null;
+            this.gridView1.Flex = 1;
+            this.gridView1.Margin = new Swebui.Controls.Margin(10F);
+            this.gridView1.Name = "gridView1";
+            this.gridView1.SelectionSetting.SimpleMultiRowSelection = true;
+            this.gridView1.Size = new System.Drawing.Size(0, 30);
             // 
             // demoUserTemplate
             // 
             this.BackColor = System.Drawing.Color.White;
             this.Controls.AddRange(new Swebui.Controls.SwebControl[] {
-            this.panel1});
-            this.Direction = Swebui.Controls.LayoutDirection.Row;
+            this.panel1,
+            this.panel2,
+            this.panel3});
+            this.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
             this.Wrap = Swebui.Controls.LayoutWrap.Wrap;
             this.Load += new System.EventHandler(this.demoUserTemplate_Load);
 
         }
         #endregion
 
-        private Panel panel1;
+        private Panel panel1 = new Panel();
+        private Panel panel2 = new Panel();
+        private Panel panel4 = new Panel();
+
+        private Panel panel3 = new Panel();
         private Label label1;
-        private Panel panel2;
-        private Label label2;
-        private TextBox textBox1;
-        private Panel panel3;
-        private Label label3;
-        private TextBox textBox2;
-        private Panel panel4;
-        private Label label4;
-        private TextBox textBox3;
-        private Label label5;
-        private Panel panel5;
-        private Label label6;
-        private TextBox textBox4;
+        private Button button1;
+        private Button button4;
+        private TreeView treeView1;
         private Panel panel6;
-        private Label label7;
+        private GridView gridView1;
+        private Panel panel5;
         private ComboBox comboBox1;
-        private Panel panel7;
-        private Label label8;
-        private ComboBox comboBox2;
+        private TextBox textBox1;
+        private Button button2;
     }
 }
