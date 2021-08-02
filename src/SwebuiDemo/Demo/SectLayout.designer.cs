@@ -1,12 +1,12 @@
 using System;
 using Swebui.Controls;
-namespace SwebuiDemo.Demo
+namespace SwebuiDemo
 {
-    partial class demoGrid : SwebUserControl
+    partial class SectLayout : SwebUserControl
     {
         #region "SmobilerUserControl generated code "
 
-        public demoGrid()
+        public SectLayout()
             : base()
         {
             //This call is required by the SmobilerUserControl.
@@ -27,24 +27,28 @@ namespace SwebuiDemo.Demo
         [System.Diagnostics.DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            this.gridView12 = new Swebui.Controls.GridView();
+            this.label1 = new Swebui.Controls.Label();
             // 
-            // gridView12
+            // label1
             // 
-            this.gridView12.DataSource = null;
-            this.gridView12.Flex = 1;
-            this.gridView12.Name = "gridView12";
-            this.gridView12.Size = new System.Drawing.Size(0, 30);
+            this.label1.DisplayMember = "SectLab";
+            this.label1.Flex = 1;
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(600, 0);
+            this.label1.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
-            // demoGrid
+            // SectLayout
             // 
+            this.BackColor = System.Drawing.Color.LightGray;
             this.Controls.AddRange(new Swebui.Controls.SwebControl[] {
-            this.gridView12});
-            this.Load += new System.EventHandler(this.demoGrid_Load);
+            this.label1});
+            this.Direction = Swebui.Controls.LayoutDirection.Row;
+            this.Size = new System.Drawing.Size(600, 35);
+            this.Load += new System.EventHandler(this.demoMap_Load);
 
         }
         #endregion
 
-        private GridView gridView12;
+        private Label label1;
     }
 }

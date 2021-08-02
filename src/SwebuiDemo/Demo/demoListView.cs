@@ -25,7 +25,25 @@ namespace SwebuiDemo.Demo
             }
             listView1.DataSource = dt;
             listView1.DataBind();
-            this.listView1.DataBind();
+
+            DataTable dt1 = new DataTable();
+            dt1.Columns.Add("SectLab");
+            dt1.Columns.Add("img");
+            dt1.Columns.Add("title");
+            dt1.Columns.Add("subtitle");
+            dt1.Columns.Add("num");
+            dt1.Columns.Add("date");
+            for (int i = 0; i < 10; i++)
+            {
+                dt1.Rows.Add("Sect " + i, "user_image.png", "请教一下关于项目部署的问题", "最近尝试了贵公司的产品，用C#开发手机端应用的创意非常赞", i * 10 + 1, DateTime.Now.ToString("yyyy/MM/dd"));
+            }
+            //sectionListView1.SectionControl = new SectLayout();
+            //sectionListView1.TemplateControl = new demoListViewTemplate();
+
+            sectionListView1.DataSource = dt1;
+            sectionListView1.DataBind();
+
+
         }
     }
 }

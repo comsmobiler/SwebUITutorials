@@ -41,13 +41,10 @@ namespace SwebuiDemo.Demo
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.LineThrough = false;
             this.button3.Name = "button3";
+            this.button3.NumberOfLines = 0;
             this.button3.Size = new System.Drawing.Size(100, 0);
             this.button3.Text = "Ìø×ª°Ù¶È";
-            this.button3.Underline = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // webView1
@@ -55,7 +52,7 @@ namespace SwebuiDemo.Demo
             this.webView1.Flex = 1;
             this.webView1.Name = "webView1";
             this.webView1.Size = new System.Drawing.Size(0, 300);
-            this.webView1.Url = "www.smobiler.com";
+            this.webView1.Url = "https://www.smobiler.com";
             // 
             // demoWeb
             // 

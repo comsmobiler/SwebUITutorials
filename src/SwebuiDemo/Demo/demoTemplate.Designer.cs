@@ -27,20 +27,20 @@ namespace SwebuiDemo.Demo
         [System.Diagnostics.DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            Swebui.Controls.MenuItem menuItem1 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem2 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem3 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem4 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem5 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem6 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.TreeViewNode treeViewNode1 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode2 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode3 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode4 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode5 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode6 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode7 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode8 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.MenuItem menuItem7 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem8 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem9 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem10 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem11 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem12 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.TreeViewNode treeViewNode9 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode10 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode11 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode12 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode13 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode14 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode15 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode16 = new Swebui.Controls.TreeViewNode();
             this.panel1 = new Swebui.Controls.Panel();
             this.panel2 = new Swebui.Controls.Panel();
             this.label1 = new Swebui.Controls.Label();
@@ -177,22 +177,23 @@ namespace SwebuiDemo.Demo
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(300, 36);
             this.label1.Text = "Button";
+            this.label1.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
             this.button1.Margin = new Swebui.Controls.Margin(10F);
             this.button1.Name = "button1";
+            this.button1.NumberOfLines = 0;
             this.button1.Size = new System.Drawing.Size(0, 40);
             this.button1.Text = "点击修改文字";
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
             this.button2.IconName = "fa fa-anchor";
             this.button2.Margin = new Swebui.Controls.Margin(10F);
             this.button2.Name = "button2";
+            this.button2.NumberOfLines = 0;
             this.button2.Size = new System.Drawing.Size(0, 40);
             this.button2.Text = "带图标按钮";
             // 
@@ -215,6 +216,7 @@ namespace SwebuiDemo.Demo
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(300, 36);
             this.label2.Text = "BarcodeView";
+            this.label2.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // barcodeView1
             // 
@@ -249,6 +251,7 @@ namespace SwebuiDemo.Demo
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(300, 36);
             this.label3.Text = "Calendar";
+            this.label3.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // calendar1
             // 
@@ -282,12 +285,15 @@ namespace SwebuiDemo.Demo
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(300, 36);
             this.label4.Text = "checkbox";
+            this.label4.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // label5
             // 
+            this.label5.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 50);
             this.label5.Text = "不同样式的checkbox";
+            this.label5.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // panel6
             // 
@@ -417,6 +423,7 @@ namespace SwebuiDemo.Demo
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(300, 36);
             this.label6.Text = "combobox";
+            this.label6.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // comboBox1
             // 
@@ -444,6 +451,7 @@ namespace SwebuiDemo.Demo
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(300, 36);
             this.label7.Text = "autocomplete";
+            this.label7.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // autocomplete1
             // 
@@ -482,6 +490,7 @@ namespace SwebuiDemo.Demo
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(300, 36);
             this.label8.Text = "datepicker";
+            this.label8.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // datePicker1
             // 
@@ -513,6 +522,7 @@ namespace SwebuiDemo.Demo
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(300, 36);
             this.label9.Text = "fontIcon&line";
+            this.label9.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // panel11
             // 
@@ -611,18 +621,20 @@ namespace SwebuiDemo.Demo
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(300, 36);
             this.label10.Text = "image";
+            this.label10.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // label11
             // 
+            this.label11.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(0, 35);
             this.label11.Text = "本地图片";
+            this.label11.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // image1
             // 
             this.image1.Margin = new Swebui.Controls.Margin(10F);
             this.image1.Name = "image1";
-            this.image1.ResouceData = null;
             this.image1.ResourceID = "logon";
             this.image1.Size = new System.Drawing.Size(272, 97);
             this.image1.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -631,15 +643,16 @@ namespace SwebuiDemo.Demo
             // 
             // label12
             // 
+            this.label12.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(0, 35);
             this.label12.Text = "网络图片";
+            this.label12.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // image2
             // 
             this.image2.Margin = new Swebui.Controls.Margin(10F);
             this.image2.Name = "image2";
-            this.image2.ResouceData = null;
             this.image2.ResourceID = "https://www.smobiler.com/images/index/bg.png";
             this.image2.Size = new System.Drawing.Size(272, 118);
             this.image2.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -665,12 +678,16 @@ namespace SwebuiDemo.Demo
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(300, 36);
             this.label13.Text = "Label";
+            this.label13.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // label14
             // 
+            this.label14.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
+            this.label14.Margin = new Swebui.Controls.Margin(10F, 0F, 0F, 0F);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(0, 25);
             this.label14.Text = "不同样式的label";
+            this.label14.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // panel14
             // 
@@ -832,6 +849,7 @@ namespace SwebuiDemo.Demo
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(300, 36);
             this.label27.Text = "MapTagVie";
+            this.label27.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // mapTagView1
             // 
@@ -861,33 +879,34 @@ namespace SwebuiDemo.Demo
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(300, 36);
             this.label28.Text = "MenuView";
+            this.label28.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // menuView1
             // 
             this.menuView1.DefaultIcon = "tasks";
             this.menuView1.Flex = 1;
-            menuItem1.Icon = "car";
-            menuItem1.Id = "1";
-            menuItem2.Id = "1";
-            menuItem2.Text = "二级菜单1";
-            menuItem3.Id = "2";
-            menuItem3.Text = "二级菜单2";
-            menuItem4.Id = "3";
-            menuItem4.Text = "二级菜单3";
-            menuItem5.Id = "4";
-            menuItem5.Text = "二级菜单4";
-            menuItem1.Items.AddRange(new Swebui.Controls.MenuItem[] {
-            menuItem2,
-            menuItem3,
-            menuItem4,
-            menuItem5});
-            menuItem1.Text = "菜单1";
-            menuItem6.Icon = "car";
-            menuItem6.Id = "2";
-            menuItem6.Text = "菜单2";
+            menuItem7.Icon = "car";
+            menuItem7.Id = "1";
+            menuItem8.Id = "1";
+            menuItem8.Text = "二级菜单1";
+            menuItem9.Id = "2";
+            menuItem9.Text = "二级菜单2";
+            menuItem10.Id = "3";
+            menuItem10.Text = "二级菜单3";
+            menuItem11.Id = "4";
+            menuItem11.Text = "二级菜单4";
+            menuItem7.Items.AddRange(new Swebui.Controls.MenuItem[] {
+            menuItem8,
+            menuItem9,
+            menuItem10,
+            menuItem11});
+            menuItem7.Text = "菜单1";
+            menuItem12.Icon = "car";
+            menuItem12.Id = "2";
+            menuItem12.Text = "菜单2";
             this.menuView1.Items.AddRange(new Swebui.Controls.MenuItem[] {
-            menuItem1,
-            menuItem6});
+            menuItem7,
+            menuItem12});
             this.menuView1.Margin = new Swebui.Controls.Margin(10F);
             this.menuView1.Name = "menuView1";
             this.menuView1.Size = new System.Drawing.Size(0, 30);
@@ -915,6 +934,7 @@ namespace SwebuiDemo.Demo
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(300, 36);
             this.label29.Text = "Progress & segmentcontrol&Switch& slide";
+            this.label29.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // progress1
             // 
@@ -1028,6 +1048,7 @@ namespace SwebuiDemo.Demo
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(300, 36);
             this.label30.Text = "TextBox";
+            this.label30.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // textBox1
             // 
@@ -1043,27 +1064,27 @@ namespace SwebuiDemo.Demo
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
             this.button3.Margin = new Swebui.Controls.Margin(10F);
             this.button3.Name = "button3";
+            this.button3.NumberOfLines = 0;
             this.button3.Size = new System.Drawing.Size(0, 35);
             this.button3.Text = "获取当前值";
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
             this.button4.Margin = new Swebui.Controls.Margin(10F);
             this.button4.Name = "button4";
+            this.button4.NumberOfLines = 0;
             this.button4.Size = new System.Drawing.Size(0, 35);
             this.button4.Text = "进入焦点";
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
             this.button5.Margin = new Swebui.Controls.Margin(10F);
             this.button5.Name = "button5";
+            this.button5.NumberOfLines = 0;
             this.button5.Size = new System.Drawing.Size(0, 35);
             this.button5.Text = "离开焦点";
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -1086,40 +1107,41 @@ namespace SwebuiDemo.Demo
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(300, 36);
             this.label31.Text = "TreeView";
+            this.label31.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // treeView1
             // 
             this.treeView1.Flex = 1;
             this.treeView1.Margin = new Swebui.Controls.Margin(10F);
             this.treeView1.Name = "treeView1";
-            treeViewNode2.Text = "菠萝";
-            treeViewNode2.TreeID = "1";
-            treeViewNode3.Text = "苹果";
-            treeViewNode3.TreeID = "2";
-            treeViewNode5.Text = "美人蕉";
-            treeViewNode5.TreeID = "1";
-            treeViewNode4.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode5});
-            treeViewNode4.Text = "香蕉";
-            treeViewNode4.TreeID = "3";
-            treeViewNode1.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode2,
-            treeViewNode3,
-            treeViewNode4});
-            treeViewNode1.Text = "水果";
-            treeViewNode1.TreeID = "1";
-            treeViewNode7.Text = "西瓜";
-            treeViewNode7.TreeID = "1";
-            treeViewNode6.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode7});
-            treeViewNode6.Text = "蔬菜";
-            treeViewNode6.TreeID = "2";
-            treeViewNode8.Text = "谷物";
-            treeViewNode8.TreeID = "3";
+            treeViewNode10.Text = "菠萝";
+            treeViewNode10.TreeID = "1";
+            treeViewNode11.Text = "苹果";
+            treeViewNode11.TreeID = "2";
+            treeViewNode13.Text = "美人蕉";
+            treeViewNode13.TreeID = "1";
+            treeViewNode12.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode13});
+            treeViewNode12.Text = "香蕉";
+            treeViewNode12.TreeID = "3";
+            treeViewNode9.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode10,
+            treeViewNode11,
+            treeViewNode12});
+            treeViewNode9.Text = "水果";
+            treeViewNode9.TreeID = "1";
+            treeViewNode15.Text = "西瓜";
+            treeViewNode15.TreeID = "1";
+            treeViewNode14.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode15});
+            treeViewNode14.Text = "蔬菜";
+            treeViewNode14.TreeID = "2";
+            treeViewNode16.Text = "谷物";
+            treeViewNode16.TreeID = "3";
             this.treeView1.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode1,
-            treeViewNode6,
-            treeViewNode8});
+            treeViewNode9,
+            treeViewNode14,
+            treeViewNode16});
             this.treeView1.Size = new System.Drawing.Size(0, 30);
             // 
             // demoTemplate

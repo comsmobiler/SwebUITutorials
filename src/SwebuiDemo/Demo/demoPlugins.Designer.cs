@@ -33,15 +33,15 @@ namespace SwebuiDemo.Demo
             this.marqueeLabel1 = new Swebui.Controls.MarqueeLabel();
             this.panel3 = new Swebui.Controls.Panel();
             this.label2 = new Swebui.Controls.Label();
-            this.mediaView1 = new Swebui.Controls .MediaView();
+            this.mediaView1 = new Swebui.Controls.MediaView();
             this.panel4 = new Swebui.Controls.Panel();
             this.label3 = new Swebui.Controls.Label();
             this.panel5 = new Swebui.Controls.Panel();
-            this.percentageCircle1 = new Swebui.Controls .PercentageCircle();
-            this.percentageCircle2 = new Swebui.Controls .PercentageCircle();
+            this.percentageCircle1 = new Swebui.Controls.PercentageCircle();
+            this.percentageCircle2 = new Swebui.Controls.PercentageCircle();
             this.panel6 = new Swebui.Controls.Panel();
             this.label4 = new Swebui.Controls.Label();
-            this.eCharts1 = new Swebui.Controls .ECharts();
+            this.eCharts1 = new Swebui.Controls.ECharts();
             // 
             // panel1
             // 
@@ -71,9 +71,11 @@ namespace SwebuiDemo.Demo
             // label1
             // 
             this.label1.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
+            this.label1.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 35);
             this.label1.Text = "MarqueeLabel";
+            this.label1.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // marqueeLabel1
             // 
@@ -97,9 +99,11 @@ namespace SwebuiDemo.Demo
             // label2
             // 
             this.label2.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
+            this.label2.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 35);
             this.label2.Text = "mediaview";
+            this.label2.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // mediaView1
             // 
@@ -124,9 +128,11 @@ namespace SwebuiDemo.Demo
             // label3
             // 
             this.label3.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
+            this.label3.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 35);
             this.label3.Text = "PercentageCircle";
+            this.label3.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // panel5
             // 
@@ -173,9 +179,11 @@ namespace SwebuiDemo.Demo
             // label4
             // 
             this.label4.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
+            this.label4.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 35);
             this.label4.Text = "echarts";
+            this.label4.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // eCharts1
             // 

@@ -28,7 +28,8 @@ namespace SwebuiDemo
             demoItem.Items.Add(new MenuItem("WebView", "WebView") { Tag = typeof(demoWeb) });
             demoItem.Items.Add(new MenuItem("MapView", "MapView") { Tag = typeof(demoMap) });
             demoItem.Items.Add(new MenuItem("PDFAndHtml", "PDFAndHtml") { Tag = typeof(demoPDFAndHtml) });
-            demoItem.Items.Add(new MenuItem("OtherPlugins", "OtherPlugins") { Tag = typeof(demoPlugins) });
+            demoItem.Items.Add(new MenuItem("OtherControls", "OtherControls") { Tag = typeof(demoPlugins) });
+            demoItem.Items.Add(new MenuItem("自定义控件", "自定义控件") { Tag = typeof(demoCustm) });
 
             this.menuView1.Items.Add(demoItem);
         }

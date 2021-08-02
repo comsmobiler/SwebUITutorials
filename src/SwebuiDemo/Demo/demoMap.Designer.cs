@@ -64,29 +64,24 @@ namespace SwebuiDemo.Demo
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 35);
             this.label1.Text = "mapview";
+            this.label1.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.LineThrough = false;
             this.button1.Margin = new Swebui.Controls.Margin(10F);
             this.button1.Name = "button1";
+            this.button1.NumberOfLines = 0;
             this.button1.Size = new System.Drawing.Size(0, 35);
             this.button1.Text = "Ìí¼ÓTag";
-            this.button1.Underline = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.LineThrough = false;
             this.button2.Margin = new Swebui.Controls.Margin(10F);
             this.button2.Name = "button2";
+            this.button2.NumberOfLines = 0;
             this.button2.Size = new System.Drawing.Size(0, 35);
             this.button2.Text = "µã»÷Ìí¼Óroute";
-            this.button2.Underline = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // mapView1
@@ -110,6 +105,7 @@ namespace SwebuiDemo.Demo
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 35);
             this.label2.Text = "maptrimview";
+            this.label2.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // mapTrimView1
             // 

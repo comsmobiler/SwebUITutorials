@@ -48,6 +48,7 @@ namespace SwebuiDemo.Demo
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 35);
             this.label1.Text = "PDFView";
+            this.label1.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // pdfView1
             // 
@@ -70,6 +71,7 @@ namespace SwebuiDemo.Demo
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 35);
             this.label2.Text = "HTMLView";
+            this.label2.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // htmlView1
             // 

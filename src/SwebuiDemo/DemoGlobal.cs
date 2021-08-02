@@ -34,7 +34,7 @@ namespace SwebuiDemo
             dt.Columns.Add(new DataColumn("Switch", typeof(bool)));
             dt.Columns.Add(new DataColumn("Image", typeof(string)));
             dt.Columns.Add(new DataColumn("FontIcon", typeof(string)));
-            dt.Columns.Add(new DataColumn("DatePicker", typeof(DateTime)));
+            dt.Columns.Add(new DataColumn("DatePicker"));
             dt.Columns.Add(new DataColumn("Section", typeof(string)));
 
             string rdBind = rd.Next(0, 101).ToString();

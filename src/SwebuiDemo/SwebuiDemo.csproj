@@ -66,6 +66,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DemoGlobal.cs" />
+    <Compile Include="Demo\demoCustm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoCustm.Designer.cs">
+      <DependentUpon>demoCustm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Demo\demoEditUserTemplate.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -126,6 +132,18 @@
     <Compile Include="Demo\demoTemplate.Designer.cs">
       <DependentUpon>demoTemplate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Demo\ImageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\ImageButton.Designer.cs">
+      <DependentUpon>ImageButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo\SectLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\SectLayout.designer.cs">
+      <DependentUpon>SectLayout.cs</DependentUpon>
+    </Compile>
     <Compile Include="Demo\tabUserLayout1.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -159,6 +177,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Demo\demoCustm.resx">
+      <DependentUpon>demoCustm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Demo\demoEditUserTemplate.resx">
       <DependentUpon>demoEditUserTemplate.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,6 +209,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Demo\demoTemplate.resx">
       <DependentUpon>demoTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\ImageButton.resx">
+      <DependentUpon>ImageButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\SectLayout.resx">
+      <DependentUpon>SectLayout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Demo\tabUserLayout1.resx">
       <DependentUpon>tabUserLayout1.cs</DependentUpon>
