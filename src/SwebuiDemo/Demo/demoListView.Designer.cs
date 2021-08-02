@@ -87,7 +87,6 @@ namespace SwebuiDemo.Demo
             // 
             this.sectionListView1.Flex = 1;
             this.sectionListView1.Name = "sectionListView1";
-            this.sectionListView1.PickerFontSize = -1F;
             this.sectionListView1.SectionControlName = "SectLayout";
             this.sectionListView1.SectionMember = "SectLab";
             this.sectionListView1.Size = new System.Drawing.Size(0, 300);

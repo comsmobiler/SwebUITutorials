@@ -11,8 +11,8 @@ namespace SwebuiDemo.Demo
     {
         private void demoGrid_Load(object sender, EventArgs e)
         {
-            this.gridView12.DataSource = DemoGlobal.GetListViewTable(100);
-            this.gridView12.DataBind();
+            this.gridView1.DataSource = DemoGlobal.GetListViewTable(100);
+            this.gridView1.DataBind();
         }
     }
 }

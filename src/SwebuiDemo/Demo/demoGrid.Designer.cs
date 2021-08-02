@@ -27,24 +27,24 @@ namespace SwebuiDemo.Demo
         [System.Diagnostics.DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            this.gridView12 = new Swebui.Controls.GridView();
+            this.gridView1 = new Swebui.Controls.GridView();
             // 
-            // gridView12
+            // gridView1
             // 
-            this.gridView12.DataSource = null;
-            this.gridView12.Flex = 1;
-            this.gridView12.Name = "gridView12";
-            this.gridView12.Size = new System.Drawing.Size(0, 30);
+            this.gridView1.DataSource = null;
+            this.gridView1.Flex = 1;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.Size = new System.Drawing.Size(0, 30);
             // 
             // demoGrid
             // 
             this.Controls.AddRange(new Swebui.Controls.SwebControl[] {
-            this.gridView12});
+            this.gridView1});
             this.Load += new System.EventHandler(this.demoGrid_Load);
 
         }
         #endregion
 
-        private GridView gridView12;
+        private GridView gridView1;
     }
 }
