@@ -178,18 +178,18 @@ namespace SwebuiDemo.Demo
             this.treeView1.BackColor = System.Drawing.Color.White;
             this.treeView1.Name = "treeView1";
             treeViewNode2.Text = "男";
-            treeViewNode2.TreeID = "1";
+            treeViewNode2.TreeID = "1-1";
             treeViewNode3.Text = "女";
-            treeViewNode3.TreeID = "2";
+            treeViewNode3.TreeID = "1-2";
             treeViewNode1.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
             treeViewNode2,
             treeViewNode3});
             treeViewNode1.Text = "用户性别";
             treeViewNode1.TreeID = "1";
             treeViewNode5.Text = "激活";
-            treeViewNode5.TreeID = "1";
+            treeViewNode5.TreeID = "2-1";
             treeViewNode6.Text = "未激活";
-            treeViewNode6.TreeID = "2";
+            treeViewNode6.TreeID = "2-2";
             treeViewNode4.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
             treeViewNode5,
             treeViewNode6});
