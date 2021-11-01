@@ -40,6 +40,7 @@ namespace SwebuiDemo.Demo
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(179)))), ((int)(((byte)(148)))));
+            this.button1.LineHeight = 0F;
             this.button1.Name = "button1";
             this.button1.NumberOfLines = 0;
             this.button1.Size = new System.Drawing.Size(66, 35);
@@ -48,6 +49,8 @@ namespace SwebuiDemo.Demo
             // 
             // image1
             // 
+            this.image1.Border = new Swebui.Controls.Border(1F);
+            this.image1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.image1.Margin = new Swebui.Controls.Margin(0F, 10F, 0F, 10F);
             this.image1.Name = "image1";
             this.image1.ResourceID = "";

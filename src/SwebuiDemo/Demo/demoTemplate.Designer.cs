@@ -27,20 +27,20 @@ namespace SwebuiDemo.Demo
         [System.Diagnostics.DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            Swebui.Controls.MenuItem menuItem7 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem8 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem9 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem10 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem11 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem12 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.TreeViewNode treeViewNode9 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode10 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode11 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode12 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode13 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode14 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode15 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode16 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.MenuItem menuItem43 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem44 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem45 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem46 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem47 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem48 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.TreeViewNode treeViewNode57 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode58 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode59 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode60 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode61 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode62 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode63 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode64 = new Swebui.Controls.TreeViewNode();
             this.panel1 = new Swebui.Controls.Panel();
             this.panel2 = new Swebui.Controls.Panel();
             this.label1 = new Swebui.Controls.Label();
@@ -67,13 +67,10 @@ namespace SwebuiDemo.Demo
             this.checkBox8 = new Swebui.Controls.CheckBox();
             this.panel7 = new Swebui.Controls.Panel();
             this.label6 = new Swebui.Controls.Label();
-            this.comboBox1 = new Swebui.Controls.ComboBox();
             this.panel8 = new Swebui.Controls.Panel();
             this.label7 = new Swebui.Controls.Label();
-            this.autocomplete1 = new Swebui.Controls.Autocomplete();
             this.panel9 = new Swebui.Controls.Panel();
             this.label8 = new Swebui.Controls.Label();
-            this.datePicker1 = new Swebui.Controls.DatePicker();
             this.panel10 = new Swebui.Controls.Panel();
             this.label9 = new Swebui.Controls.Label();
             this.panel11 = new Swebui.Controls.Panel();
@@ -132,6 +129,16 @@ namespace SwebuiDemo.Demo
             this.panel22 = new Swebui.Controls.Panel();
             this.label31 = new Swebui.Controls.Label();
             this.treeView1 = new Swebui.Controls.TreeView();
+            this.label32 = new Swebui.Controls.Label();
+            this.comboBox1 = new Swebui.Controls.ComboBox();
+            this.label33 = new Swebui.Controls.Label();
+            this.autocomplete1 = new Swebui.Controls.AutoComplete();
+            this.button6 = new Swebui.Controls.Button();
+            this.button7 = new Swebui.Controls.Button();
+            this.label34 = new Swebui.Controls.Label();
+            this.datePicker1 = new Swebui.Controls.DatePicker();
+            this.button8 = new Swebui.Controls.Button();
+            this.button9 = new Swebui.Controls.Button();
             // 
             // panel1
             // 
@@ -411,7 +418,10 @@ namespace SwebuiDemo.Demo
             this.panel7.BorderRadius = 4;
             this.panel7.Controls.AddRange(new Swebui.Controls.SwebControl[] {
             this.label6,
-            this.comboBox1});
+            this.label32,
+            this.comboBox1,
+            this.button6,
+            this.button7});
             this.panel7.Margin = new Swebui.Controls.Margin(10F);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(300, 364);
@@ -425,21 +435,16 @@ namespace SwebuiDemo.Demo
             this.label6.Text = "combobox";
             this.label6.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
-            // comboBox1
-            // 
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.placeholder = "";
-            this.comboBox1.PopupHeight = 0;
-            this.comboBox1.Size = new System.Drawing.Size(0, 35);
-            this.comboBox1.Text = "";
-            // 
             // panel8
             // 
             this.panel8.Border = new Swebui.Controls.Border(1F);
             this.panel8.BorderRadius = 4;
             this.panel8.Controls.AddRange(new Swebui.Controls.SwebControl[] {
             this.label7,
-            this.autocomplete1});
+            this.label33,
+            this.autocomplete1,
+            this.button8,
+            this.button9});
             this.panel8.Margin = new Swebui.Controls.Margin(10F);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(300, 364);
@@ -453,31 +458,13 @@ namespace SwebuiDemo.Demo
             this.label7.Text = "autocomplete";
             this.label7.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
-            // autocomplete1
-            // 
-            this.autocomplete1.DataSource = new string[] {
-        "萝卜",
-        "青菜",
-        "香蕉",
-        "苹果",
-        "牛油果",
-        "大西瓜",
-        "小香菇",
-        "大菠萝"};
-            this.autocomplete1.Margin = new Swebui.Controls.Margin(10F);
-            this.autocomplete1.Name = "autocomplete1";
-            this.autocomplete1.placeholder = "请输入";
-            this.autocomplete1.showClearButton = true;
-            this.autocomplete1.showPopupButton = true;
-            this.autocomplete1.Size = new System.Drawing.Size(0, 35);
-            this.autocomplete1.Text = "";
-            // 
             // panel9
             // 
             this.panel9.Border = new Swebui.Controls.Border(1F);
             this.panel9.BorderRadius = 4;
             this.panel9.Controls.AddRange(new Swebui.Controls.SwebControl[] {
             this.label8,
+            this.label34,
             this.datePicker1});
             this.panel9.Margin = new Swebui.Controls.Margin(10F);
             this.panel9.Name = "panel9";
@@ -491,16 +478,6 @@ namespace SwebuiDemo.Demo
             this.label8.Size = new System.Drawing.Size(300, 36);
             this.label8.Text = "datepicker";
             this.label8.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
-            // 
-            // datePicker1
-            // 
-            this.datePicker1.Margin = new Swebui.Controls.Margin(10F);
-            this.datePicker1.MaxDate = new System.DateTime(9999, 12, 31, 23, 59, 59, 999);
-            this.datePicker1.MinDate = new System.DateTime(((long)(0)));
-            this.datePicker1.Name = "datePicker1";
-            this.datePicker1.Size = new System.Drawing.Size(0, 47);
-            this.datePicker1.Value = new System.DateTime(2021, 6, 7, 16, 19, 49, 235);
-            this.datePicker1.ValueChanged += new System.EventHandler(this.datePicker1_ValueChanged);
             // 
             // panel10
             // 
@@ -885,28 +862,28 @@ namespace SwebuiDemo.Demo
             // 
             this.menuView1.DefaultIcon = "tasks";
             this.menuView1.Flex = 1;
-            menuItem7.Icon = "car";
-            menuItem7.Id = "1";
-            menuItem8.Id = "1";
-            menuItem8.Text = "二级菜单1";
-            menuItem9.Id = "2";
-            menuItem9.Text = "二级菜单2";
-            menuItem10.Id = "3";
-            menuItem10.Text = "二级菜单3";
-            menuItem11.Id = "4";
-            menuItem11.Text = "二级菜单4";
-            menuItem7.Items.AddRange(new Swebui.Controls.MenuItem[] {
-            menuItem8,
-            menuItem9,
-            menuItem10,
-            menuItem11});
-            menuItem7.Text = "菜单1";
-            menuItem12.Icon = "car";
-            menuItem12.Id = "2";
-            menuItem12.Text = "菜单2";
+            menuItem43.Icon = "car";
+            menuItem43.Id = "1";
+            menuItem44.Id = "1";
+            menuItem44.Text = "二级菜单1";
+            menuItem45.Id = "2";
+            menuItem45.Text = "二级菜单2";
+            menuItem46.Id = "3";
+            menuItem46.Text = "二级菜单3";
+            menuItem47.Id = "4";
+            menuItem47.Text = "二级菜单4";
+            menuItem43.Items.AddRange(new Swebui.Controls.MenuItem[] {
+            menuItem44,
+            menuItem45,
+            menuItem46,
+            menuItem47});
+            menuItem43.Text = "菜单1";
+            menuItem48.Icon = "car";
+            menuItem48.Id = "2";
+            menuItem48.Text = "菜单2";
             this.menuView1.Items.AddRange(new Swebui.Controls.MenuItem[] {
-            menuItem7,
-            menuItem12});
+            menuItem43,
+            menuItem48});
             this.menuView1.Margin = new Swebui.Controls.Margin(10F);
             this.menuView1.Name = "menuView1";
             this.menuView1.Size = new System.Drawing.Size(0, 30);
@@ -1114,35 +1091,136 @@ namespace SwebuiDemo.Demo
             this.treeView1.Flex = 1;
             this.treeView1.Margin = new Swebui.Controls.Margin(10F);
             this.treeView1.Name = "treeView1";
-            treeViewNode10.Text = "菠萝";
-            treeViewNode10.TreeID = "1";
-            treeViewNode11.Text = "苹果";
-            treeViewNode11.TreeID = "2";
-            treeViewNode13.Text = "美人蕉";
-            treeViewNode13.TreeID = "1";
-            treeViewNode12.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode13});
-            treeViewNode12.Text = "香蕉";
-            treeViewNode12.TreeID = "3";
-            treeViewNode9.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode10,
-            treeViewNode11,
-            treeViewNode12});
-            treeViewNode9.Text = "水果";
-            treeViewNode9.TreeID = "1";
-            treeViewNode15.Text = "西瓜";
-            treeViewNode15.TreeID = "1";
-            treeViewNode14.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode15});
-            treeViewNode14.Text = "蔬菜";
-            treeViewNode14.TreeID = "2";
-            treeViewNode16.Text = "谷物";
-            treeViewNode16.TreeID = "3";
+            treeViewNode58.Text = "菠萝";
+            treeViewNode58.TreeID = "1";
+            treeViewNode59.Text = "苹果";
+            treeViewNode59.TreeID = "2";
+            treeViewNode61.Text = "美人蕉";
+            treeViewNode61.TreeID = "1";
+            treeViewNode60.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode61});
+            treeViewNode60.Text = "香蕉";
+            treeViewNode60.TreeID = "3";
+            treeViewNode57.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode58,
+            treeViewNode59,
+            treeViewNode60});
+            treeViewNode57.Text = "水果";
+            treeViewNode57.TreeID = "1";
+            treeViewNode63.Text = "西瓜";
+            treeViewNode63.TreeID = "1";
+            treeViewNode62.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode63});
+            treeViewNode62.Text = "蔬菜";
+            treeViewNode62.TreeID = "2";
+            treeViewNode64.Text = "谷物";
+            treeViewNode64.TreeID = "3";
             this.treeView1.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode9,
-            treeViewNode14,
-            treeViewNode16});
+            treeViewNode57,
+            treeViewNode62,
+            treeViewNode64});
             this.treeView1.Size = new System.Drawing.Size(0, 30);
+            // 
+            // label32
+            // 
+            this.label32.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(0, 35);
+            this.label32.Text = "EJ2 下拉框控件, 使用Client.SetEJControlTheme方法可以更改主题";
+            this.label32.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Border = new Swebui.Controls.Border(1F);
+            this.comboBox1.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Placeholder = "请输入";
+            this.comboBox1.PopupHeight = 0;
+            this.comboBox1.Size = new System.Drawing.Size(0, 35);
+            this.comboBox1.Text = "";
+            // 
+            // label33
+            // 
+            this.label33.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(0, 35);
+            this.label33.Text = "EJ2 自动填充控件, 使用Client.SetEJControlTheme方法可以更改主题";
+            this.label33.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // autocomplete1
+            // 
+            this.autocomplete1.Border = new Swebui.Controls.Border(1F);
+            this.autocomplete1.DataSource = new string[] {
+        "萝卜",
+        "青菜",
+        "香蕉",
+        "苹果",
+        "牛油果",
+        "大西瓜",
+        "小香菇",
+        "大菠萝"};
+            this.autocomplete1.Margin = new Swebui.Controls.Margin(10F);
+            this.autocomplete1.Name = "autocomplete1";
+            this.autocomplete1.Placeholder = "请输入";
+            this.autocomplete1.ShowClearButton = true;
+            this.autocomplete1.ShowPopupButton = true;
+            this.autocomplete1.Size = new System.Drawing.Size(0, 35);
+            this.autocomplete1.Text = "";
+            // 
+            // button6
+            // 
+            this.button6.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.button6.Name = "button6";
+            this.button6.NumberOfLines = 0;
+            this.button6.Size = new System.Drawing.Size(0, 35);
+            this.button6.Text = "设置深色模式";
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.button7.Name = "button7";
+            this.button7.NumberOfLines = 0;
+            this.button7.Size = new System.Drawing.Size(0, 35);
+            this.button7.Text = "设置浅色模式";
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // label34
+            // 
+            this.label34.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(0, 35);
+            this.label34.Text = "日期选择控件";
+            this.label34.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // datePicker1
+            // 
+            this.datePicker1.Border = new Swebui.Controls.Border(1F);
+            this.datePicker1.Margin = new Swebui.Controls.Margin(10F);
+            this.datePicker1.MaxDate = new System.DateTime(9999, 12, 31, 23, 59, 59, 999);
+            this.datePicker1.MinDate = new System.DateTime(((long)(0)));
+            this.datePicker1.Name = "datePicker1";
+            this.datePicker1.Size = new System.Drawing.Size(0, 35);
+            this.datePicker1.Value = new System.DateTime(2021, 6, 7, 16, 19, 49, 235);
+            this.datePicker1.ValueChanged += new System.EventHandler(this.datePicker1_ValueChanged);
+            // 
+            // button8
+            // 
+            this.button8.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.button8.Name = "button8";
+            this.button8.NumberOfLines = 0;
+            this.button8.Size = new System.Drawing.Size(0, 35);
+            this.button8.Text = "设置浅色模式";
+            this.button8.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button9
+            // 
+            this.button9.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.button9.Name = "button9";
+            this.button9.NumberOfLines = 0;
+            this.button9.Size = new System.Drawing.Size(0, 35);
+            this.button9.Text = "设置深色模式";
+            this.button9.Click += new System.EventHandler(this.button6_Click);
             // 
             // demoTemplate
             // 
@@ -1183,12 +1261,10 @@ namespace SwebuiDemo.Demo
         private CheckBox checkBox8;
         private Panel panel7;
         private Label label6;
-        private ComboBox comboBox1;
         private Panel panel8;
         private Label label7;
         private Panel panel9;
         private Label label8;
-        private DatePicker datePicker1;
         private Panel panel10;
         private Label label9;
         private Panel panel11;
@@ -1243,10 +1319,19 @@ namespace SwebuiDemo.Demo
         private Button button3;
         private Button button4;
         private Button button5;
-        private Autocomplete autocomplete1;
         private Panel panel22;
         private Label label31;
         private TreeView treeView1;
         private Slide slide1;
+        private Label label32;
+        private ComboBox comboBox1;
+        private Button button6;
+        private Label label33;
+        private AutoComplete autocomplete1;
+        private Button button7;
+        private Label label34;
+        private DatePicker datePicker1;
+        private Button button8;
+        private Button button9;
     }
 }

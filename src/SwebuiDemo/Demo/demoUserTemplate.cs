@@ -73,7 +73,7 @@ namespace SwebuiDemo.Demo
                 dt.Rows.Add(ele.Element("id").Value, ele.Element("name").Value, ele.Element("sex").Value, ele.Element("status").Value);
             }
             gridView1.Reload(dt);
-
+            
         }
         public void SelectData(string prop, string value)
         {

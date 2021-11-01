@@ -31,9 +31,11 @@ namespace SwebuiDemo.Demo
             // 
             // gridView1
             // 
+            this.gridView1.AllowPaging = true;
             this.gridView1.DataSource = null;
             this.gridView1.Flex = 1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.PageSetting.PageSize = 10;
             this.gridView1.Size = new System.Drawing.Size(0, 30);
             // 
             // demoGrid

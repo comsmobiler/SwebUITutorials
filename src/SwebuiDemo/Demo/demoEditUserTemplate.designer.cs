@@ -41,6 +41,7 @@ namespace SwebuiDemo.Demo
             // label1
             // 
             this.label1.FontSize = 24F;
+            this.label1.LineHeight = 0F;
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 26);
             this.label1.Text = "编辑用户";
@@ -59,20 +60,22 @@ namespace SwebuiDemo.Demo
             this.button3});
             this.panel2.Direction = Swebui.Controls.LayoutDirection.Row;
             this.panel2.ItemAlign = Swebui.Controls.LayoutItemAlign.Center;
+            this.panel2.Margin = new Swebui.Controls.Margin(0F, 10F, 0F, 15F);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(0, 35);
+            this.panel2.Size = new System.Drawing.Size(0, 26);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Border = new Swebui.Controls.Border(1F);
-            this.button1.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.button1.ForeColor = System.Drawing.Color.DimGray;
             this.button1.IconName = "fa fa-chevron-left";
+            this.button1.LineHeight = 0F;
             this.button1.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
             this.button1.Name = "button1";
             this.button1.NumberOfLines = 0;
-            this.button1.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
+            this.button1.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
             this.button1.Size = new System.Drawing.Size(0, 26);
             this.button1.Text = "返回";
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -81,13 +84,14 @@ namespace SwebuiDemo.Demo
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Border = new Swebui.Controls.Border(1F);
-            this.button2.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.button2.ForeColor = System.Drawing.Color.DimGray;
             this.button2.IconName = "fa fa-floppy-o";
+            this.button2.LineHeight = 0F;
             this.button2.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
             this.button2.Name = "button2";
             this.button2.NumberOfLines = 0;
-            this.button2.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
+            this.button2.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
             this.button2.Size = new System.Drawing.Size(0, 26);
             this.button2.Text = "保存";
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -96,13 +100,14 @@ namespace SwebuiDemo.Demo
             // 
             this.button3.BackColor = System.Drawing.Color.White;
             this.button3.Border = new Swebui.Controls.Border(1F);
-            this.button3.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.button3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.button3.ForeColor = System.Drawing.Color.DimGray;
             this.button3.IconName = "fa fa-trash";
+            this.button3.LineHeight = 0F;
             this.button3.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
             this.button3.Name = "button3";
             this.button3.NumberOfLines = 0;
-            this.button3.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
+            this.button3.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
             this.button3.Size = new System.Drawing.Size(0, 26);
             this.button3.Text = "删除";
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -135,7 +140,7 @@ namespace SwebuiDemo.Demo
             this.panel2,
             this.panel3});
             this.Flex = 1;
-            this.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
+            this.Padding = new Swebui.Controls.Padding(10F, 15F, 10F, 15F);
             this.Load += new System.EventHandler(this.demoUserTemplate_Load);
 
         }

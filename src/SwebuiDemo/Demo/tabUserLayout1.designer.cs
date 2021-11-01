@@ -78,7 +78,10 @@ namespace SwebuiDemo.Demo
             // 
             // label1
             // 
+            this.label1.Bold = true;
             this.label1.Flex = 1;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(106)))), ((int)(((byte)(108)))));
+            this.label1.LineHeight = 0F;
             this.label1.Margin = new Swebui.Controls.Margin(10F, 0F, 10F, 0F);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 35);
@@ -87,7 +90,10 @@ namespace SwebuiDemo.Demo
             // 
             // label2
             // 
+            this.label2.Bold = true;
             this.label2.Flex = 1;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(106)))), ((int)(((byte)(108)))));
+            this.label2.LineHeight = 0F;
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 35);
             this.label2.Text = "用户名称";
@@ -95,7 +101,10 @@ namespace SwebuiDemo.Demo
             // 
             // label3
             // 
+            this.label3.Bold = true;
             this.label3.Flex = 1;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(106)))), ((int)(((byte)(108)))));
+            this.label3.LineHeight = 0F;
             this.label3.Margin = new Swebui.Controls.Margin(10F, 0F, 10F, 0F);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 35);
@@ -116,27 +125,30 @@ namespace SwebuiDemo.Demo
             // textBox1
             // 
             this.textBox1.Border = new Swebui.Controls.Border(1F);
-            this.textBox1.BorderColor = System.Drawing.Color.LightGray;
+            this.textBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.textBox1.Flex = 1;
             this.textBox1.Margin = new Swebui.Controls.Margin(10F, 0F, 10F, 0F);
             this.textBox1.Name = "textBox1";
+            this.textBox1.Padding = new Swebui.Controls.Padding(10F, 0F, 0F, 0F);
             this.textBox1.Size = new System.Drawing.Size(100, 35);
             // 
             // textBox2
             // 
             this.textBox2.Border = new Swebui.Controls.Border(1F);
-            this.textBox2.BorderColor = System.Drawing.Color.LightGray;
+            this.textBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.textBox2.Flex = 1;
             this.textBox2.Name = "textBox2";
+            this.textBox2.Padding = new Swebui.Controls.Padding(10F, 0F, 0F, 0F);
             this.textBox2.Size = new System.Drawing.Size(100, 35);
             // 
             // textBox3
             // 
             this.textBox3.Border = new Swebui.Controls.Border(1F);
-            this.textBox3.BorderColor = System.Drawing.Color.LightGray;
+            this.textBox3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.textBox3.Flex = 1;
             this.textBox3.Margin = new Swebui.Controls.Margin(10F, 0F, 10F, 0F);
             this.textBox3.Name = "textBox3";
+            this.textBox3.Padding = new Swebui.Controls.Padding(10F, 0F, 0F, 0F);
             this.textBox3.SecurityMode = true;
             this.textBox3.Size = new System.Drawing.Size(100, 35);
             // 
@@ -153,7 +165,10 @@ namespace SwebuiDemo.Demo
             // 
             // label4
             // 
+            this.label4.Bold = true;
             this.label4.Flex = 1;
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(106)))), ((int)(((byte)(108)))));
+            this.label4.LineHeight = 0F;
             this.label4.Margin = new Swebui.Controls.Margin(10F, 0F, 10F, 0F);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 35);
@@ -162,7 +177,10 @@ namespace SwebuiDemo.Demo
             // 
             // label5
             // 
+            this.label5.Bold = true;
             this.label5.Flex = 1;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(106)))), ((int)(((byte)(108)))));
+            this.label5.LineHeight = 0F;
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 35);
             this.label5.Text = "性别";
@@ -170,7 +188,10 @@ namespace SwebuiDemo.Demo
             // 
             // label6
             // 
+            this.label6.Bold = true;
             this.label6.Flex = 1;
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(106)))), ((int)(((byte)(108)))));
+            this.label6.LineHeight = 0F;
             this.label6.Margin = new Swebui.Controls.Margin(10F, 0F, 10F, 0F);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(100, 35);
@@ -192,7 +213,7 @@ namespace SwebuiDemo.Demo
             // comboBox1
             // 
             this.comboBox1.Border = new Swebui.Controls.Border(1F);
-            this.comboBox1.BorderColor = System.Drawing.Color.LightGray;
+            this.comboBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.comboBox1.Flex = 1;
             comboBoxItem1.Id = "1";
             comboBoxItem1.Text = "中文";
@@ -203,7 +224,8 @@ namespace SwebuiDemo.Demo
             comboBoxItem2});
             this.comboBox1.Margin = new Swebui.Controls.Margin(10F, 0F, 10F, 0F);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.placeholder = "";
+            this.comboBox1.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
+            this.comboBox1.Placeholder = "";
             this.comboBox1.PopupHeight = 0;
             this.comboBox1.Size = new System.Drawing.Size(100, 35);
             this.comboBox1.Text = "";
@@ -211,7 +233,7 @@ namespace SwebuiDemo.Demo
             // comboBox2
             // 
             this.comboBox2.Border = new Swebui.Controls.Border(1F);
-            this.comboBox2.BorderColor = System.Drawing.Color.LightGray;
+            this.comboBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.comboBox2.Flex = 1;
             comboBoxItem3.Id = "1";
             comboBoxItem3.Text = "男";
@@ -221,7 +243,8 @@ namespace SwebuiDemo.Demo
             comboBoxItem3,
             comboBoxItem4});
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.placeholder = "";
+            this.comboBox2.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
+            this.comboBox2.Placeholder = "";
             this.comboBox2.PopupHeight = 0;
             this.comboBox2.Size = new System.Drawing.Size(100, 35);
             this.comboBox2.Text = "";
@@ -229,7 +252,7 @@ namespace SwebuiDemo.Demo
             // comboBox3
             // 
             this.comboBox3.Border = new Swebui.Controls.Border(1F);
-            this.comboBox3.BorderColor = System.Drawing.Color.LightGray;
+            this.comboBox3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.comboBox3.Flex = 1;
             comboBoxItem5.Id = "1";
             comboBoxItem5.Text = "激活";
@@ -240,7 +263,8 @@ namespace SwebuiDemo.Demo
             comboBoxItem6});
             this.comboBox3.Margin = new Swebui.Controls.Margin(10F, 0F, 10F, 0F);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.placeholder = "";
+            this.comboBox3.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
+            this.comboBox3.Placeholder = "";
             this.comboBox3.PopupHeight = 0;
             this.comboBox3.Size = new System.Drawing.Size(100, 35);
             this.comboBox3.Text = "";
@@ -258,7 +282,10 @@ namespace SwebuiDemo.Demo
             // 
             // label7
             // 
+            this.label7.Bold = true;
             this.label7.Flex = 1;
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(106)))), ((int)(((byte)(108)))));
+            this.label7.LineHeight = 0F;
             this.label7.Margin = new Swebui.Controls.Margin(10F, 0F, 10F, 0F);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 35);
@@ -267,7 +294,10 @@ namespace SwebuiDemo.Demo
             // 
             // label8
             // 
+            this.label8.Bold = true;
             this.label8.Flex = 1;
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(106)))), ((int)(((byte)(108)))));
+            this.label8.LineHeight = 0F;
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(100, 35);
             this.label8.Text = "出生日期";
@@ -275,7 +305,10 @@ namespace SwebuiDemo.Demo
             // 
             // label9
             // 
+            this.label9.Bold = true;
             this.label9.Flex = 1;
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(106)))), ((int)(((byte)(108)))));
+            this.label9.LineHeight = 0F;
             this.label9.Margin = new Swebui.Controls.Margin(10F, 0F, 10F, 0F);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(100, 35);
@@ -296,7 +329,7 @@ namespace SwebuiDemo.Demo
             // comboBox4
             // 
             this.comboBox4.Border = new Swebui.Controls.Border(1F);
-            this.comboBox4.BorderColor = System.Drawing.Color.LightGray;
+            this.comboBox4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.comboBox4.Flex = 1;
             comboBoxItem7.Id = "1";
             comboBoxItem7.Text = "正常认证";
@@ -307,30 +340,33 @@ namespace SwebuiDemo.Demo
             comboBoxItem8});
             this.comboBox4.Margin = new Swebui.Controls.Margin(10F, 0F, 10F, 0F);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.placeholder = "";
+            this.comboBox4.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
+            this.comboBox4.Placeholder = "";
             this.comboBox4.PopupHeight = 0;
-            this.comboBox4.Size = new System.Drawing.Size(100, 35);
+            this.comboBox4.Size = new System.Drawing.Size(0, 35);
             this.comboBox4.Text = "";
             // 
             // datePicker1
             // 
             this.datePicker1.Border = new Swebui.Controls.Border(1F);
-            this.datePicker1.BorderColor = System.Drawing.Color.LightGray;
+            this.datePicker1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.datePicker1.Flex = 1;
             this.datePicker1.MaxDate = new System.DateTime(9999, 12, 31, 23, 59, 59, 999);
             this.datePicker1.MinDate = new System.DateTime(((long)(0)));
             this.datePicker1.Name = "datePicker1";
-            this.datePicker1.Size = new System.Drawing.Size(100, 35);
+            this.datePicker1.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
+            this.datePicker1.Size = new System.Drawing.Size(0, 35);
             this.datePicker1.Value = new System.DateTime(2021, 7, 27, 10, 10, 53, 187);
             // 
             // textBox4
             // 
             this.textBox4.Border = new Swebui.Controls.Border(1F);
-            this.textBox4.BorderColor = System.Drawing.Color.LightGray;
+            this.textBox4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.textBox4.Flex = 1;
             this.textBox4.Margin = new Swebui.Controls.Margin(10F, 0F, 10F, 0F);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 35);
+            this.textBox4.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
+            this.textBox4.Size = new System.Drawing.Size(0, 35);
             // 
             // tabUserLayout1
             // 

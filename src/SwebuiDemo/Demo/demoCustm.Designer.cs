@@ -47,7 +47,7 @@ namespace SwebuiDemo.Demo
             // 
             // label2
             // 
-            this.label2.LineHeight = 2F;
+            this.label2.LineHeight = 26F;
             this.label2.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 10F);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 0);

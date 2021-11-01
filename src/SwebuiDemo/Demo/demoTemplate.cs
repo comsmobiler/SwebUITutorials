@@ -91,5 +91,15 @@ namespace SwebuiDemo.Demo
         {
             Toast(slide1.Value.ToString());
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Client.SetEJControlTheme(EJTheme.Dark);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Client.SetEJControlTheme(EJTheme.Light);
+        }
     }
 }
