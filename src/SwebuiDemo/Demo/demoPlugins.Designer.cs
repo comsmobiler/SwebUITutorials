@@ -27,9 +27,9 @@ namespace SwebuiDemo.Demo
         [System.Diagnostics.DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            Swebui.Controls.AnimationItem animationItem4 = new Swebui.Controls.AnimationItem();
-            Swebui.Controls.AnimationItem animationItem5 = new Swebui.Controls.AnimationItem();
-            Swebui.Controls.AnimationItem animationItem6 = new Swebui.Controls.AnimationItem();
+            Swebui.Controls.AnimationItem animationItem1 = new Swebui.Controls.AnimationItem();
+            Swebui.Controls.AnimationItem animationItem2 = new Swebui.Controls.AnimationItem();
+            Swebui.Controls.AnimationItem animationItem3 = new Swebui.Controls.AnimationItem();
             this.panel1 = new Swebui.Controls.Panel();
             this.panel2 = new Swebui.Controls.Panel();
             this.label1 = new Swebui.Controls.Label();
@@ -65,9 +65,6 @@ namespace SwebuiDemo.Demo
             this.button8 = new Swebui.Controls.Button();
             this.button9 = new Swebui.Controls.Button();
             this.button10 = new Swebui.Controls.Button();
-            this.animation1 = new Swebui.Controls.Animation();
-            this.animation2 = new Swebui.Controls.Animation();
-            this.animation3 = new Swebui.Controls.Animation();
             this.panel8 = new Swebui.Controls.Panel();
             this.label9 = new Swebui.Controls.Label();
             this.svg1 = new Swebui.Controls.Svg();
@@ -75,6 +72,9 @@ namespace SwebuiDemo.Demo
             this.label10 = new Swebui.Controls.Label();
             this.htmlView1 = new Swebui.Controls.HTMLView();
             this.button15 = new Swebui.Controls.Button();
+            this.animation1 = new Swebui.Controls.Animation();
+            this.animation2 = new Swebui.Controls.Animation();
+            this.animation3 = new Swebui.Controls.Animation();
             // 
             // panel1
             // 
@@ -424,34 +424,6 @@ namespace SwebuiDemo.Demo
             this.button10.Text = "restart";
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
-            // animation1
-            // 
-            this.animation1.Duration = 3000;
-            animationItem4.Easing = Swebui.Controls.AnimationEasing.Linear;
-            animationItem4.Value = "300";
-            this.animation1.Items.AddRange(new Swebui.Controls.AnimationItem[] {
-            animationItem4});
-            this.animation1.Loop = -1;
-            this.animation1.Name = "animation1";
-            // 
-            // animation2
-            // 
-            animationItem5.Type = Swebui.Controls.AnimationType.Rotate;
-            animationItem5.Value = "90";
-            this.animation2.Items.AddRange(new Swebui.Controls.AnimationItem[] {
-            animationItem5});
-            this.animation2.Loop = -1;
-            this.animation2.Name = "animation2";
-            // 
-            // animation3
-            // 
-            animationItem6.Type = Swebui.Controls.AnimationType.Scale;
-            animationItem6.Value = "1.8";
-            this.animation3.Items.AddRange(new Swebui.Controls.AnimationItem[] {
-            animationItem6});
-            this.animation3.Loop = -1;
-            this.animation3.Name = "animation3";
-            // 
             // panel8
             // 
             this.panel8.Border = new Swebui.Controls.Border(1F);
@@ -515,6 +487,34 @@ namespace SwebuiDemo.Demo
             this.button15.Size = new System.Drawing.Size(100, 35);
             this.button15.Text = "点击，使得方块移动";
             this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // animation1
+            // 
+            this.animation1.Duration = 3000;
+            animationItem1.Easing = Swebui.Controls.AnimationEasing.Linear;
+            animationItem1.Value = "300";
+            this.animation1.Items.AddRange(new Swebui.Controls.AnimationItem[] {
+            animationItem1});
+            this.animation1.Loop = -1;
+            this.animation1.Name = "animation1";
+            // 
+            // animation2
+            // 
+            animationItem2.Type = Swebui.Controls.AnimationType.Rotate;
+            animationItem2.Value = "90";
+            this.animation2.Items.AddRange(new Swebui.Controls.AnimationItem[] {
+            animationItem2});
+            this.animation2.Loop = -1;
+            this.animation2.Name = "animation2";
+            // 
+            // animation3
+            // 
+            animationItem3.Type = Swebui.Controls.AnimationType.Scale;
+            animationItem3.Value = "1.8";
+            this.animation3.Items.AddRange(new Swebui.Controls.AnimationItem[] {
+            animationItem3});
+            this.animation3.Loop = -1;
+            this.animation3.Name = "animation3";
             // 
             // demoPlugins
             // 

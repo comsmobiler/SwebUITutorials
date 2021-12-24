@@ -86,9 +86,8 @@ namespace SwebuiDemo.Demo
             // 
             // mapView1
             // 
-            this.mapView1.Flex = 1;
             this.mapView1.Name = "mapView1";
-            this.mapView1.Size = new System.Drawing.Size(0, 0);
+            this.mapView1.Size = new System.Drawing.Size(300, 500);
             this.mapView1.TagClick += new Swebui.Controls.MapViewTagClickEventHandler(this.mapView1_TagClick);
             // 
             // panel3

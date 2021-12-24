@@ -1197,8 +1197,8 @@ namespace SwebuiDemo.Demo
             // 
             this.datePicker1.Border = new Swebui.Controls.Border(1F);
             this.datePicker1.Margin = new Swebui.Controls.Margin(10F);
-            this.datePicker1.MaxDate = new System.DateTime(9999, 12, 31, 23, 59, 59, 999);
-            this.datePicker1.MinDate = new System.DateTime(((long)(0)));
+            this.datePicker1.MaxDate = new System.DateTime(9997, 12, 31, 23, 59, 59, 999);
+            this.datePicker1.MinDate = new System.DateTime(1990, 12, 31, 23, 59, 59, 999); ;
             this.datePicker1.Name = "datePicker1";
             this.datePicker1.Size = new System.Drawing.Size(0, 35);
             this.datePicker1.Value = new System.DateTime(2021, 6, 7, 16, 19, 49, 235);
