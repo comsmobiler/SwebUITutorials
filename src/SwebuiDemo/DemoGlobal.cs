@@ -22,7 +22,7 @@ namespace SwebuiDemo
             ctl.Padding = new Padding(rd.Next(0, ctl.Height / 4));
         }
 
-        internal static DataTable GetListViewTable(int dataCount, int sectionCount = 0)
+        internal static DataTable GetListViewTable(string sessionid,int dataCount, int sectionCount = 0)
         {
             DataTable dt = new DataTable("Table");
             dt.Columns.Add(new DataColumn("Label", typeof(string)));
@@ -34,7 +34,7 @@ namespace SwebuiDemo
             dt.Columns.Add(new DataColumn("Switch", typeof(bool)));
             dt.Columns.Add(new DataColumn("Image", typeof(string)));
             dt.Columns.Add(new DataColumn("FontIcon", typeof(string)));
-            dt.Columns.Add(new DataColumn("DatePicker"));
+            dt.Columns.Add(new DataColumn("DatePicker", typeof(DateTime)));
             dt.Columns.Add(new DataColumn("Section", typeof(string)));
 
             string rdBind = rd.Next(0, 101).ToString();
@@ -50,7 +50,7 @@ namespace SwebuiDemo
                 row["TextBox"] = rdmark;
                 row["Progress"] = rd.Next(0, 101) / 100f;
                 row["Slider"] = rd.Next(0, 101) / 100f;
-                row["Image"] = i.ToString();
+                row["Image"] = Swebui.SwebResourceManager.GetResourceURL(sessionid, (i % 10).ToString() + ".png", Swebui.SwebResourceManager.DefaultImagePath);
                 row["FontIcon"] = "heart";
                 row["DatePicker"] = DateTime.Now;
                 row["CheckBox"] = (i % 2) > 0 ? true : false;

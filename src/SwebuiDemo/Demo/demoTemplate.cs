@@ -85,6 +85,7 @@ namespace SwebuiDemo.Demo
         {
             for (int i = 0; i < 5; i++)
             comboBox1.Items.Add( new ComboBoxItem(i.ToString(), "СЎПо" + i.ToString()));
+            treeView1.Press += (obj, args) => { Toast(string.Format("Press - {0}", args.TreeID)); };
         }
 
         private void slide1_ValueChanged(object sender, EventArgs e)

@@ -27,9 +27,9 @@ namespace SwebuiDemo.Demo
         [System.Diagnostics.DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            Swebui.Controls.AnimationItem animationItem1 = new Swebui.Controls.AnimationItem();
-            Swebui.Controls.AnimationItem animationItem2 = new Swebui.Controls.AnimationItem();
-            Swebui.Controls.AnimationItem animationItem3 = new Swebui.Controls.AnimationItem();
+            Swebui.Controls.AnimationItem animationItem10 = new Swebui.Controls.AnimationItem();
+            Swebui.Controls.AnimationItem animationItem11 = new Swebui.Controls.AnimationItem();
+            Swebui.Controls.AnimationItem animationItem12 = new Swebui.Controls.AnimationItem();
             this.panel1 = new Swebui.Controls.Panel();
             this.panel2 = new Swebui.Controls.Panel();
             this.label1 = new Swebui.Controls.Label();
@@ -37,6 +37,9 @@ namespace SwebuiDemo.Demo
             this.panel3 = new Swebui.Controls.Panel();
             this.label2 = new Swebui.Controls.Label();
             this.mediaView1 = new Swebui.Controls.MediaView();
+            this.panel10 = new Swebui.Controls.Panel();
+            this.button16 = new Swebui.Controls.Button();
+            this.button17 = new Swebui.Controls.Button();
             this.panel4 = new Swebui.Controls.Panel();
             this.label3 = new Swebui.Controls.Label();
             this.panel5 = new Swebui.Controls.Panel();
@@ -127,7 +130,8 @@ namespace SwebuiDemo.Demo
             this.panel3.BorderRadius = 4;
             this.panel3.Controls.AddRange(new Swebui.Controls.SwebControl[] {
             this.label2,
-            this.mediaView1});
+            this.mediaView1,
+            this.panel10});
             this.panel3.Margin = new Swebui.Controls.Margin(10F);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(500, 400);
@@ -148,6 +152,33 @@ namespace SwebuiDemo.Demo
             this.mediaView1.Name = "mediaView1";
             this.mediaView1.Size = new System.Drawing.Size(0, 30);
             this.mediaView1.Url = "https://www.smobiler.com/video/video/video_001.mp4";
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.AddRange(new Swebui.Controls.SwebControl[] {
+            this.button16,
+            this.button17});
+            this.panel10.Direction = Swebui.Controls.LayoutDirection.Row;
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(0, 40);
+            // 
+            // button16
+            // 
+            this.button16.Margin = new Swebui.Controls.Margin(50F, 0F, 50F, 0F);
+            this.button16.Name = "button16";
+            this.button16.NumberOfLines = 0;
+            this.button16.Size = new System.Drawing.Size(100, 0);
+            this.button16.Text = "seek 60s";
+            this.button16.Click += new System.EventHandler(this.button16_Click_1);
+            // 
+            // button17
+            // 
+            this.button17.Margin = new Swebui.Controls.Margin(50F, 0F, 50F, 0F);
+            this.button17.Name = "button17";
+            this.button17.NumberOfLines = 0;
+            this.button17.Size = new System.Drawing.Size(100, 0);
+            this.button17.Text = "pasue/start";
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // panel4
             // 
@@ -386,7 +417,7 @@ namespace SwebuiDemo.Demo
             this.label8.Location = new System.Drawing.Point(86, 276);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(100, 20);
-            this.label8.Text = "Rotate";
+            this.label8.Text = "Scale";
             this.label8.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
             // button11
@@ -462,7 +493,7 @@ namespace SwebuiDemo.Demo
             this.panel9.Layout = Swebui.Controls.LayoutPosition.Absolute;
             this.panel9.Margin = new Swebui.Controls.Margin(10F);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(500, 400);
+            this.panel9.Size = new System.Drawing.Size(500, 700);
             // 
             // label10
             // 
@@ -477,7 +508,7 @@ namespace SwebuiDemo.Demo
             // 
             this.htmlView1.Location = new System.Drawing.Point(37, 60);
             this.htmlView1.Name = "htmlView1";
-            this.htmlView1.Size = new System.Drawing.Size(432, 229);
+            this.htmlView1.Size = new System.Drawing.Size(432, 570);
             // 
             // button15
             // 
@@ -491,28 +522,28 @@ namespace SwebuiDemo.Demo
             // animation1
             // 
             this.animation1.Duration = 3000;
-            animationItem1.Easing = Swebui.Controls.AnimationEasing.Linear;
-            animationItem1.Value = "300";
+            animationItem10.Easing = Swebui.Controls.AnimationEasing.Linear;
+            animationItem10.Value = "300";
             this.animation1.Items.AddRange(new Swebui.Controls.AnimationItem[] {
-            animationItem1});
+            animationItem10});
             this.animation1.Loop = -1;
             this.animation1.Name = "animation1";
             // 
             // animation2
             // 
-            animationItem2.Type = Swebui.Controls.AnimationType.Rotate;
-            animationItem2.Value = "90";
+            animationItem11.Type = Swebui.Controls.AnimationType.Rotate;
+            animationItem11.Value = "90";
             this.animation2.Items.AddRange(new Swebui.Controls.AnimationItem[] {
-            animationItem2});
+            animationItem11});
             this.animation2.Loop = -1;
             this.animation2.Name = "animation2";
             // 
             // animation3
             // 
-            animationItem3.Type = Swebui.Controls.AnimationType.Scale;
-            animationItem3.Value = "1.8";
+            animationItem12.Type = Swebui.Controls.AnimationType.Scale;
+            animationItem12.Value = "1.8";
             this.animation3.Items.AddRange(new Swebui.Controls.AnimationItem[] {
-            animationItem3});
+            animationItem12});
             this.animation3.Loop = -1;
             this.animation3.Name = "animation3";
             // 
@@ -575,5 +606,8 @@ namespace SwebuiDemo.Demo
         private Label label10;
         private HTMLView htmlView1;
         private Button button15;
+        private Panel panel10;
+        private Button button16;
+        private Button button17;
     }
 }

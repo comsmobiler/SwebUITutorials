@@ -73,7 +73,6 @@ namespace SwebuiDemo.Demo
             // label1
             // 
             this.label1.FontSize = 24F;
-            this.label1.LineHeight = 0F;
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 26);
             this.label1.Text = "用户列表";
@@ -118,7 +117,6 @@ namespace SwebuiDemo.Demo
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(179)))), ((int)(((byte)(148)))));
-            this.button2.LineHeight = 0F;
             this.button2.Name = "button2";
             this.button2.NumberOfLines = 0;
             this.button2.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
@@ -154,7 +152,6 @@ namespace SwebuiDemo.Demo
             this.button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.button1.ForeColor = System.Drawing.Color.DimGray;
             this.button1.IconName = "fa fa-plus";
-            this.button1.LineHeight = 0F;
             this.button1.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
             this.button1.Name = "button1";
             this.button1.NumberOfLines = 0;
@@ -170,7 +167,6 @@ namespace SwebuiDemo.Demo
             this.button4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.button4.ForeColor = System.Drawing.Color.DimGray;
             this.button4.IconName = "fa fa-pencil-square-o";
-            this.button4.LineHeight = 0F;
             this.button4.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
             this.button4.Name = "button4";
             this.button4.NumberOfLines = 0;
@@ -185,7 +181,6 @@ namespace SwebuiDemo.Demo
             this.button3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.button3.ForeColor = System.Drawing.Color.DimGray;
             this.button3.IconName = "fa fa-pencil-square-o";
-            this.button3.LineHeight = 0F;
             this.button3.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
             this.button3.Name = "button3";
             this.button3.NumberOfLines = 0;
@@ -201,7 +196,6 @@ namespace SwebuiDemo.Demo
             this.button5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.button5.ForeColor = System.Drawing.Color.DimGray;
             this.button5.IconName = "fa fa-download";
-            this.button5.LineHeight = 0F;
             this.button5.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
             this.button5.Name = "button5";
             this.button5.NumberOfLines = 0;
@@ -216,7 +210,6 @@ namespace SwebuiDemo.Demo
             this.button6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.button6.ForeColor = System.Drawing.Color.DimGray;
             this.button6.IconName = "fa fa-refresh";
-            this.button6.LineHeight = 0F;
             this.button6.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
             this.button6.Name = "button6";
             this.button6.NumberOfLines = 0;
@@ -231,7 +224,6 @@ namespace SwebuiDemo.Demo
             this.button7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.button7.ForeColor = System.Drawing.Color.DimGray;
             this.button7.IconName = "fa fa-floppy-o";
-            this.button7.LineHeight = 0F;
             this.button7.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
             this.button7.Name = "button7";
             this.button7.NumberOfLines = 0;
@@ -246,7 +238,6 @@ namespace SwebuiDemo.Demo
             this.button8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.button8.ForeColor = System.Drawing.Color.DimGray;
             this.button8.IconName = "fa fa-trash";
-            this.button8.LineHeight = 0F;
             this.button8.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
             this.button8.Name = "button8";
             this.button8.NumberOfLines = 0;
@@ -269,9 +260,14 @@ namespace SwebuiDemo.Demo
             // treeView1
             // 
             this.treeView1.BackColor = System.Drawing.Color.White;
+            this.treeView1.CountBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(166)))), ((int)(((byte)(137)))));
+            this.treeView1.DefaultValue = new string[0];
             this.treeView1.Name = "treeView1";
+            treeViewNode1.Count = "2";
+            treeViewNode2.Count = null;
             treeViewNode2.Text = "男";
             treeViewNode2.TreeID = "1-1";
+            treeViewNode3.Count = null;
             treeViewNode3.Text = "女";
             treeViewNode3.TreeID = "1-2";
             treeViewNode1.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
@@ -279,8 +275,11 @@ namespace SwebuiDemo.Demo
             treeViewNode3});
             treeViewNode1.Text = "用户性别";
             treeViewNode1.TreeID = "1";
+            treeViewNode4.Count = "2";
+            treeViewNode5.Count = null;
             treeViewNode5.Text = "激活";
             treeViewNode5.TreeID = "2-1";
+            treeViewNode6.Count = null;
             treeViewNode6.Text = "未激活";
             treeViewNode6.TreeID = "2-2";
             treeViewNode4.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
@@ -291,6 +290,7 @@ namespace SwebuiDemo.Demo
             this.treeView1.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
             treeViewNode1,
             treeViewNode4});
+            this.treeView1.SelectBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(166)))), ((int)(((byte)(137)))));
             this.treeView1.Size = new System.Drawing.Size(200, 0);
             this.treeView1.Press += new Swebui.Controls.TreeView.TreeViewOnPressEventHandler(this.treeView1_Press);
             // 
@@ -311,6 +311,7 @@ namespace SwebuiDemo.Demo
             this.gridView1.DataSource = null;
             this.gridView1.Flex = 1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.RowHeight = 0;
             this.gridView1.RowWidth = 0;
             this.gridView1.Size = new System.Drawing.Size(0, 30);
             // 

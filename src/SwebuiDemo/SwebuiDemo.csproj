@@ -66,6 +66,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DemoGlobal.cs" />
+    <Compile Include="Demo\demoClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoClient.Designer.cs">
+      <DependentUpon>demoClient.cs</DependentUpon>
+    </Compile>
     <Compile Include="Demo\demoCustm.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -177,6 +183,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Demo\demoClient.resx">
+      <DependentUpon>demoClient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Demo\demoCustm.resx">
       <DependentUpon>demoCustm.cs</DependentUpon>
     </EmbeddedResource>

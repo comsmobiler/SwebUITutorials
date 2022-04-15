@@ -351,8 +351,8 @@ namespace SwebuiDemo.Demo
             this.datePicker1.Border = new Swebui.Controls.Border(1F);
             this.datePicker1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(236)))));
             this.datePicker1.Flex = 1;
-            this.datePicker1.MaxDate = new System.DateTime(9999, 12, 31, 23, 59, 59, 999);
-            this.datePicker1.MinDate = new System.DateTime(((long)(0)));
+            //this.datePicker1.MaxDate = new System.DateTime(9999, 12, 31, 23, 59, 59, 999);
+            //this.datePicker1.MinDate = new System.DateTime(((long)(0)));
             this.datePicker1.Name = "datePicker1";
             this.datePicker1.Padding = new Swebui.Controls.Padding(10F, 0F, 10F, 0F);
             this.datePicker1.Size = new System.Drawing.Size(0, 35);

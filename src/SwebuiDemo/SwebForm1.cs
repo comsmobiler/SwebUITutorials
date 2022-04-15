@@ -30,6 +30,7 @@ namespace SwebuiDemo
             demoItem.Items.Add(new MenuItem("PDFAndHtml", "PDFAndHtml") { Tag = typeof(demoPDFAndHtml) });
             demoItem.Items.Add(new MenuItem("OtherControls", "OtherControls") { Tag = typeof(demoPlugins) });
             demoItem.Items.Add(new MenuItem("自定义控件", "自定义控件") { Tag = typeof(demoCustm) });
+            demoItem.Items.Add(new MenuItem("Client", "Client") { Tag = typeof(demoClient) });
 
             this.menuView1.Items.Add(demoItem);
         }

@@ -27,20 +27,34 @@ namespace SwebuiDemo.Demo
         [System.Diagnostics.DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            Swebui.Controls.MenuItem menuItem43 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem44 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem45 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem46 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem47 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem48 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.TreeViewNode treeViewNode57 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode58 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode59 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode60 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode61 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode62 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode63 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode64 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.MenuItem menuItem1 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem2 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem3 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem4 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem5 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem6 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.TreeViewNode treeViewNode1 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode2 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode3 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode4 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode5 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode6 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode7 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode8 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode1 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode2 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode3 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode4 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode5 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode6 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode7 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode8 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode9 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode10 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode11 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode12 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode13 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode14 = new Swebui.Controls.TreeSelectNode();
             this.panel1 = new Swebui.Controls.Panel();
             this.panel2 = new Swebui.Controls.Panel();
             this.label1 = new Swebui.Controls.Label();
@@ -67,10 +81,20 @@ namespace SwebuiDemo.Demo
             this.checkBox8 = new Swebui.Controls.CheckBox();
             this.panel7 = new Swebui.Controls.Panel();
             this.label6 = new Swebui.Controls.Label();
+            this.label32 = new Swebui.Controls.Label();
+            this.comboBox1 = new Swebui.Controls.ComboBox();
+            this.button6 = new Swebui.Controls.Button();
+            this.button7 = new Swebui.Controls.Button();
             this.panel8 = new Swebui.Controls.Panel();
             this.label7 = new Swebui.Controls.Label();
+            this.label33 = new Swebui.Controls.Label();
+            this.autocomplete1 = new Swebui.Controls.AutoComplete();
+            this.button8 = new Swebui.Controls.Button();
+            this.button9 = new Swebui.Controls.Button();
             this.panel9 = new Swebui.Controls.Panel();
             this.label8 = new Swebui.Controls.Label();
+            this.label34 = new Swebui.Controls.Label();
+            this.datePicker1 = new Swebui.Controls.DatePicker();
             this.panel10 = new Swebui.Controls.Panel();
             this.label9 = new Swebui.Controls.Label();
             this.panel11 = new Swebui.Controls.Panel();
@@ -129,16 +153,13 @@ namespace SwebuiDemo.Demo
             this.panel22 = new Swebui.Controls.Panel();
             this.label31 = new Swebui.Controls.Label();
             this.treeView1 = new Swebui.Controls.TreeView();
-            this.label32 = new Swebui.Controls.Label();
-            this.comboBox1 = new Swebui.Controls.ComboBox();
-            this.label33 = new Swebui.Controls.Label();
-            this.autocomplete1 = new Swebui.Controls.AutoComplete();
-            this.button6 = new Swebui.Controls.Button();
-            this.button7 = new Swebui.Controls.Button();
-            this.label34 = new Swebui.Controls.Label();
-            this.datePicker1 = new Swebui.Controls.DatePicker();
-            this.button8 = new Swebui.Controls.Button();
-            this.button9 = new Swebui.Controls.Button();
+            this.panel23 = new Swebui.Controls.Panel();
+            this.label35 = new Swebui.Controls.Label();
+            this.chooseDatePicker1 = new Swebui.Controls.ChooseDatePicker();
+            this.panel24 = new Swebui.Controls.Panel();
+            this.label36 = new Swebui.Controls.Label();
+            this.treeSelect1 = new Swebui.Controls.TreeSelect();
+            this.treeSelect2 = new Swebui.Controls.TreeSelect();
             // 
             // panel1
             // 
@@ -157,7 +178,9 @@ namespace SwebuiDemo.Demo
             this.panel18,
             this.panel19,
             this.panel21,
-            this.panel22});
+            this.panel22,
+            this.panel23,
+            this.panel24});
             this.panel1.Direction = Swebui.Controls.LayoutDirection.Row;
             this.panel1.Flex = 1;
             this.panel1.Name = "panel1";
@@ -435,6 +458,42 @@ namespace SwebuiDemo.Demo
             this.label6.Text = "combobox";
             this.label6.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
+            // label32
+            // 
+            this.label32.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(0, 35);
+            this.label32.Text = "EJ2 下拉框控件, 使用Client.SetEJControlTheme方法可以更改主题";
+            this.label32.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Border = new Swebui.Controls.Border(1F);
+            this.comboBox1.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Placeholder = "请输入";
+            this.comboBox1.PopupHeight = 0;
+            this.comboBox1.Size = new System.Drawing.Size(0, 35);
+            this.comboBox1.Text = "";
+            // 
+            // button6
+            // 
+            this.button6.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.button6.Name = "button6";
+            this.button6.NumberOfLines = 0;
+            this.button6.Size = new System.Drawing.Size(0, 35);
+            this.button6.Text = "设置深色模式";
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.button7.Name = "button7";
+            this.button7.NumberOfLines = 0;
+            this.button7.Size = new System.Drawing.Size(0, 35);
+            this.button7.Text = "设置浅色模式";
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // panel8
             // 
             this.panel8.Border = new Swebui.Controls.Border(1F);
@@ -458,6 +517,52 @@ namespace SwebuiDemo.Demo
             this.label7.Text = "autocomplete";
             this.label7.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
+            // label33
+            // 
+            this.label33.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(0, 35);
+            this.label33.Text = "EJ2 自动填充控件, 使用Client.SetEJControlTheme方法可以更改主题";
+            this.label33.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // autocomplete1
+            // 
+            this.autocomplete1.Border = new Swebui.Controls.Border(1F);
+            this.autocomplete1.DataSource = new string[] {
+        "萝卜",
+        "青菜",
+        "香蕉",
+        "苹果",
+        "牛油果",
+        "大西瓜",
+        "小香菇",
+        "大菠萝"};
+            this.autocomplete1.Margin = new Swebui.Controls.Margin(10F);
+            this.autocomplete1.Name = "autocomplete1";
+            this.autocomplete1.Placeholder = "请输入";
+            this.autocomplete1.ShowClearButton = true;
+            this.autocomplete1.ShowPopupButton = true;
+            this.autocomplete1.Size = new System.Drawing.Size(0, 35);
+            this.autocomplete1.Text = "";
+            // 
+            // button8
+            // 
+            this.button8.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.button8.Name = "button8";
+            this.button8.NumberOfLines = 0;
+            this.button8.Size = new System.Drawing.Size(0, 35);
+            this.button8.Text = "设置浅色模式";
+            this.button8.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button9
+            // 
+            this.button9.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.button9.Name = "button9";
+            this.button9.NumberOfLines = 0;
+            this.button9.Size = new System.Drawing.Size(0, 35);
+            this.button9.Text = "设置深色模式";
+            this.button9.Click += new System.EventHandler(this.button6_Click);
+            // 
             // panel9
             // 
             this.panel9.Border = new Swebui.Controls.Border(1F);
@@ -478,6 +583,23 @@ namespace SwebuiDemo.Demo
             this.label8.Size = new System.Drawing.Size(300, 36);
             this.label8.Text = "datepicker";
             this.label8.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // label34
+            // 
+            this.label34.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(0, 35);
+            this.label34.Text = "日期选择控件";
+            this.label34.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // datePicker1
+            // 
+            this.datePicker1.Border = new Swebui.Controls.Border(1F);
+            this.datePicker1.Margin = new Swebui.Controls.Margin(10F);
+            this.datePicker1.Name = "datePicker1";
+            this.datePicker1.Size = new System.Drawing.Size(0, 35);
+            this.datePicker1.Value = new System.DateTime(2021, 6, 7, 16, 19, 49, 235);
+            this.datePicker1.ValueChanged += new System.EventHandler(this.datePicker1_ValueChanged);
             // 
             // panel10
             // 
@@ -862,28 +984,28 @@ namespace SwebuiDemo.Demo
             // 
             this.menuView1.DefaultIcon = "tasks";
             this.menuView1.Flex = 1;
-            menuItem43.Icon = "car";
-            menuItem43.Id = "1";
-            menuItem44.Id = "1";
-            menuItem44.Text = "二级菜单1";
-            menuItem45.Id = "2";
-            menuItem45.Text = "二级菜单2";
-            menuItem46.Id = "3";
-            menuItem46.Text = "二级菜单3";
-            menuItem47.Id = "4";
-            menuItem47.Text = "二级菜单4";
-            menuItem43.Items.AddRange(new Swebui.Controls.MenuItem[] {
-            menuItem44,
-            menuItem45,
-            menuItem46,
-            menuItem47});
-            menuItem43.Text = "菜单1";
-            menuItem48.Icon = "car";
-            menuItem48.Id = "2";
-            menuItem48.Text = "菜单2";
+            menuItem1.Icon = "car";
+            menuItem1.Id = "1";
+            menuItem2.Id = "1";
+            menuItem2.Text = "二级菜单1";
+            menuItem3.Id = "2";
+            menuItem3.Text = "二级菜单2";
+            menuItem4.Id = "3";
+            menuItem4.Text = "二级菜单3";
+            menuItem5.Id = "4";
+            menuItem5.Text = "二级菜单4";
+            menuItem1.Items.AddRange(new Swebui.Controls.MenuItem[] {
+            menuItem2,
+            menuItem3,
+            menuItem4,
+            menuItem5});
+            menuItem1.Text = "菜单1";
+            menuItem6.Icon = "car";
+            menuItem6.Id = "2";
+            menuItem6.Text = "菜单2";
             this.menuView1.Items.AddRange(new Swebui.Controls.MenuItem[] {
-            menuItem43,
-            menuItem48});
+            menuItem1,
+            menuItem6});
             this.menuView1.Margin = new Swebui.Controls.Margin(10F);
             this.menuView1.Name = "menuView1";
             this.menuView1.Size = new System.Drawing.Size(0, 30);
@@ -1088,139 +1210,176 @@ namespace SwebuiDemo.Demo
             // 
             // treeView1
             // 
+            this.treeView1.CountBackgroundColor = System.Drawing.Color.YellowGreen;
+            this.treeView1.CountColor = System.Drawing.Color.Gray;
+            this.treeView1.DefaultValue = new string[0];
             this.treeView1.Flex = 1;
             this.treeView1.Margin = new Swebui.Controls.Margin(10F);
             this.treeView1.Name = "treeView1";
-            treeViewNode58.Text = "菠萝";
-            treeViewNode58.TreeID = "1";
-            treeViewNode59.Text = "苹果";
-            treeViewNode59.TreeID = "2";
-            treeViewNode61.Text = "美人蕉";
-            treeViewNode61.TreeID = "1";
-            treeViewNode60.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode61});
-            treeViewNode60.Text = "香蕉";
-            treeViewNode60.TreeID = "3";
-            treeViewNode57.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode58,
-            treeViewNode59,
-            treeViewNode60});
-            treeViewNode57.Text = "水果";
-            treeViewNode57.TreeID = "1";
-            treeViewNode63.Text = "西瓜";
-            treeViewNode63.TreeID = "1";
-            treeViewNode62.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode63});
-            treeViewNode62.Text = "蔬菜";
-            treeViewNode62.TreeID = "2";
-            treeViewNode64.Text = "谷物";
-            treeViewNode64.TreeID = "3";
+            treeViewNode1.Count = "4";
+            treeViewNode2.Count = null;
+            treeViewNode2.Text = "菠萝";
+            treeViewNode2.TreeID = "4";
+            treeViewNode3.Count = null;
+            treeViewNode3.Text = "苹果";
+            treeViewNode3.TreeID = "5";
+            treeViewNode4.Count = null;
+            treeViewNode4.Text = "香蕉";
+            treeViewNode4.TreeID = "6";
+            treeViewNode5.Count = null;
+            treeViewNode5.Text = "梨";
+            treeViewNode5.TreeID = "7";
+            treeViewNode1.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode2,
+            treeViewNode3,
+            treeViewNode4,
+            treeViewNode5});
+            treeViewNode1.Text = "水果";
+            treeViewNode1.TreeID = "1";
+            treeViewNode6.Count = "1";
+            treeViewNode7.Count = null;
+            treeViewNode7.Text = "黄瓜";
+            treeViewNode7.TreeID = "8";
+            treeViewNode6.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode7});
+            treeViewNode6.Text = "蔬菜";
+            treeViewNode6.TreeID = "2";
+            treeViewNode8.Count = "0";
+            treeViewNode8.Text = "谷物";
+            treeViewNode8.TreeID = "3";
             this.treeView1.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode57,
-            treeViewNode62,
-            treeViewNode64});
+            treeViewNode1,
+            treeViewNode6,
+            treeViewNode8});
+            this.treeView1.SelectBackgroundColor = System.Drawing.Color.Aqua;
+            this.treeView1.ShowCheckBox = true;
             this.treeView1.Size = new System.Drawing.Size(0, 30);
             // 
-            // label32
+            // panel23
             // 
-            this.label32.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(0, 35);
-            this.label32.Text = "EJ2 下拉框控件, 使用Client.SetEJControlTheme方法可以更改主题";
-            this.label32.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            this.panel23.Border = new Swebui.Controls.Border(1F);
+            this.panel23.BorderRadius = 4;
+            this.panel23.Controls.AddRange(new Swebui.Controls.SwebControl[] {
+            this.label35,
+            this.chooseDatePicker1});
+            this.panel23.Margin = new Swebui.Controls.Margin(10F);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(300, 364);
             // 
-            // comboBox1
+            // label35
             // 
-            this.comboBox1.Border = new Swebui.Controls.Border(1F);
-            this.comboBox1.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Placeholder = "请输入";
-            this.comboBox1.PopupHeight = 0;
-            this.comboBox1.Size = new System.Drawing.Size(0, 35);
-            this.comboBox1.Text = "";
+            this.label35.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
+            this.label35.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(300, 36);
+            this.label35.Text = "ChooseDataPicker";
+            this.label35.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
-            // label33
+            // chooseDatePicker1
             // 
-            this.label33.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(0, 35);
-            this.label33.Text = "EJ2 自动填充控件, 使用Client.SetEJControlTheme方法可以更改主题";
-            this.label33.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            this.chooseDatePicker1.Border = new Swebui.Controls.Border(1F);
+            this.chooseDatePicker1.FontSize = 13F;
+            this.chooseDatePicker1.Margin = new Swebui.Controls.Margin(10F);
+            this.chooseDatePicker1.Name = "chooseDatePicker1";
+            this.chooseDatePicker1.Placeholder.BeginPlaceholder = "开始日期";
+            this.chooseDatePicker1.Placeholder.EndPlaceHolder = "结束日期";
+            this.chooseDatePicker1.Size = new System.Drawing.Size(0, 30);
+            this.chooseDatePicker1.Value.BeginDate = null;
+            this.chooseDatePicker1.Value.EndDate = null;
             // 
-            // autocomplete1
+            // panel24
             // 
-            this.autocomplete1.Border = new Swebui.Controls.Border(1F);
-            this.autocomplete1.DataSource = new string[] {
-        "萝卜",
-        "青菜",
-        "香蕉",
-        "苹果",
-        "牛油果",
-        "大西瓜",
-        "小香菇",
-        "大菠萝"};
-            this.autocomplete1.Margin = new Swebui.Controls.Margin(10F);
-            this.autocomplete1.Name = "autocomplete1";
-            this.autocomplete1.Placeholder = "请输入";
-            this.autocomplete1.ShowClearButton = true;
-            this.autocomplete1.ShowPopupButton = true;
-            this.autocomplete1.Size = new System.Drawing.Size(0, 35);
-            this.autocomplete1.Text = "";
+            this.panel24.Border = new Swebui.Controls.Border(1F);
+            this.panel24.BorderRadius = 4;
+            this.panel24.Controls.AddRange(new Swebui.Controls.SwebControl[] {
+            this.label36,
+            this.treeSelect1,
+            this.treeSelect2});
+            this.panel24.Margin = new Swebui.Controls.Margin(10F);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(300, 364);
             // 
-            // button6
+            // label36
             // 
-            this.button6.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
-            this.button6.Name = "button6";
-            this.button6.NumberOfLines = 0;
-            this.button6.Size = new System.Drawing.Size(0, 35);
-            this.button6.Text = "设置深色模式";
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.label36.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
+            this.label36.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(300, 36);
+            this.label36.Text = "TreeSelect";
+            this.label36.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
-            // button7
+            // treeSelect1
             // 
-            this.button7.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
-            this.button7.Name = "button7";
-            this.button7.NumberOfLines = 0;
-            this.button7.Size = new System.Drawing.Size(0, 35);
-            this.button7.Text = "设置浅色模式";
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.treeSelect1.Border = new Swebui.Controls.Border(1F);
+            this.treeSelect1.DefaultValue = new string[0];
+            this.treeSelect1.ListBackgroundColor = System.Drawing.Color.White;
+            this.treeSelect1.ListFontSize = 16F;
+            this.treeSelect1.Margin = new Swebui.Controls.Margin(10F);
+            this.treeSelect1.Name = "treeSelect1";
+            treeSelectNode2.Text = "苹果";
+            treeSelectNode2.TreeID = "4";
+            treeSelectNode3.Text = "西瓜";
+            treeSelectNode3.TreeID = "5";
+            treeSelectNode4.Text = "梨";
+            treeSelectNode4.TreeID = "6";
+            treeSelectNode1.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
+            treeSelectNode2,
+            treeSelectNode3,
+            treeSelectNode4});
+            treeSelectNode1.Text = "水果";
+            treeSelectNode1.TreeID = "1";
+            treeSelectNode6.Text = "青菜";
+            treeSelectNode6.TreeID = "7";
+            treeSelectNode5.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
+            treeSelectNode6});
+            treeSelectNode5.Text = "蔬菜";
+            treeSelectNode5.TreeID = "2";
+            treeSelectNode7.Text = null;
+            treeSelectNode7.TreeID = "肉";
+            this.treeSelect1.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
+            treeSelectNode1,
+            treeSelectNode5,
+            treeSelectNode7});
+            this.treeSelect1.Placeholder = "请选择（单选）";
+            this.treeSelect1.Size = new System.Drawing.Size(0, 30);
             // 
-            // label34
+            // treeSelect2
             // 
-            this.label34.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(0, 35);
-            this.label34.Text = "日期选择控件";
-            this.label34.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
-            // 
-            // datePicker1
-            // 
-            this.datePicker1.Border = new Swebui.Controls.Border(1F);
-            this.datePicker1.Margin = new Swebui.Controls.Margin(10F);
-            this.datePicker1.MaxDate = new System.DateTime(9997, 12, 31, 23, 59, 59, 999);
-            this.datePicker1.MinDate = new System.DateTime(1990, 12, 31, 23, 59, 59, 999); ;
-            this.datePicker1.Name = "datePicker1";
-            this.datePicker1.Size = new System.Drawing.Size(0, 35);
-            this.datePicker1.Value = new System.DateTime(2021, 6, 7, 16, 19, 49, 235);
-            this.datePicker1.ValueChanged += new System.EventHandler(this.datePicker1_ValueChanged);
-            // 
-            // button8
-            // 
-            this.button8.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
-            this.button8.Name = "button8";
-            this.button8.NumberOfLines = 0;
-            this.button8.Size = new System.Drawing.Size(0, 35);
-            this.button8.Text = "设置浅色模式";
-            this.button8.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // button9
-            // 
-            this.button9.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
-            this.button9.Name = "button9";
-            this.button9.NumberOfLines = 0;
-            this.button9.Size = new System.Drawing.Size(0, 35);
-            this.button9.Text = "设置深色模式";
-            this.button9.Click += new System.EventHandler(this.button6_Click);
+            this.treeSelect2.Border = new Swebui.Controls.Border(1F);
+            this.treeSelect2.DefaultValue = new string[0];
+            this.treeSelect2.ListBackgroundColor = System.Drawing.Color.White;
+            this.treeSelect2.ListFontSize = 16F;
+            this.treeSelect2.Margin = new Swebui.Controls.Margin(10F);
+            this.treeSelect2.Multiple = true;
+            this.treeSelect2.Name = "treeSelect2";
+            treeSelectNode9.Text = "苹果";
+            treeSelectNode9.TreeID = "4";
+            treeSelectNode10.Text = "梨";
+            treeSelectNode10.TreeID = "5";
+            treeSelectNode11.Text = "西瓜";
+            treeSelectNode11.TreeID = "6";
+            treeSelectNode8.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
+            treeSelectNode9,
+            treeSelectNode10,
+            treeSelectNode11});
+            treeSelectNode8.Text = "水果";
+            treeSelectNode8.TreeID = "1";
+            treeSelectNode13.Text = "青菜";
+            treeSelectNode13.TreeID = "7";
+            treeSelectNode12.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
+            treeSelectNode13});
+            treeSelectNode12.Text = "蔬菜";
+            treeSelectNode12.TreeID = "2";
+            treeSelectNode14.Text = "肉";
+            treeSelectNode14.TreeID = "3";
+            this.treeSelect2.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
+            treeSelectNode8,
+            treeSelectNode12,
+            treeSelectNode14});
+            this.treeSelect2.Placeholder = "请选择（多选）";
+            this.treeSelect2.Size = new System.Drawing.Size(0, 30);
+            this.treeSelect2.TagBackgroundColor = System.Drawing.Color.SkyBlue;
+            this.treeSelect2.TagColor = System.Drawing.Color.White;
             // 
             // demoTemplate
             // 
@@ -1333,5 +1492,12 @@ namespace SwebuiDemo.Demo
         private DatePicker datePicker1;
         private Button button8;
         private Button button9;
+        private Panel panel23;
+        private Label label35;
+        private ChooseDatePicker chooseDatePicker1;
+        private Panel panel24;
+        private Label label36;
+        private TreeSelect treeSelect1;
+        private TreeSelect treeSelect2;
     }
 }
