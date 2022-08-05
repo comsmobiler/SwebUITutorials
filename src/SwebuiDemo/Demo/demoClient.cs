@@ -87,7 +87,7 @@ namespace SwebuiDemo.Demo
 
         private void button11_Click(object sender, EventArgs e)
         {
-            string jsid = "jsfunctionview";
+           string jsid = "jsfunctionview";
             string jsCode = @"alert('Hello');";
 
             Client.JSAppend(jsid, jsCode, (obj, args) => {
@@ -96,6 +96,69 @@ namespace SwebuiDemo.Demo
                 else
                     Toast(args.error);
             }, JScriptType.Script, JScriptAppendType.Body);
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Client.SetClipBoard("时间是：" + DateTime.Now.ToString(), (obj, args) => {
+                if (args.isError == false)
+                    Toast("设置成功");
+                else Toast(args.error);
+            });
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            this.Client.GetClipBoard((obj, args) =>
+            {
+                if (args.isError == false)
+                    Toast(args.Data);
+                else Toast(args.error);
+            });
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            this.Client.Camera(CameraMethod.ImageFromAlbum, cameraQialityMode: CameraQialityMode.Compress, handler: (obj, args) =>
+            {
+
+                if (args.isError == false)
+                {
+                    args.SaveFile();
+                    Toast("保存成功");
+                }
+                else
+                {
+                    Toast(args.error);
+                }
+            });
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            this.Client.Camera(CameraMethod.ImageFromAlbum, cameraQialityMode: CameraQialityMode.Original, handler: (obj, args) =>
+            {
+
+                if (args.isError == false)
+                {
+                    args.SaveFile();
+                    Toast("保存成功");
+                }
+                else
+                {
+                    Toast(args.error);
+                }
+            });
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            this.Client.PlayAudio("001.mp3");//001.mp3是在bin\debug目录下
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            this.Client.StopAudio();
         }
     }
 }

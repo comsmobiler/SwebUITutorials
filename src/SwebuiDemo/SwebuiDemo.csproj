@@ -35,6 +35,9 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Smobiler.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=c28d201d12639a97, processorArchitecture=MSIL" />
+    <Reference Include="Smobiler.Core.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=276522cd3fa3b955, processorArchitecture=MSIL" />
+    <Reference Include="Smobiler.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9301bc54ca0d7a69, processorArchitecture=MSIL" />
     <Reference Include="Swebui.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c0fe134bbc911c57, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files (x86)\Swebui Designer\Library\Swebui.Controls.dll</HintPath>
@@ -144,6 +147,12 @@
     <Compile Include="Demo\ImageButton.Designer.cs">
       <DependentUpon>ImageButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="Demo\popcontrol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\popcontrol.Designer.cs">
+      <DependentUpon>popcontrol.cs</DependentUpon>
+    </Compile>
     <Compile Include="Demo\SectLayout.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -221,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Demo\ImageButton.resx">
       <DependentUpon>ImageButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\popcontrol.resx">
+      <DependentUpon>popcontrol.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Demo\SectLayout.resx">
       <DependentUpon>SectLayout.cs</DependentUpon>

@@ -27,34 +27,40 @@ namespace SwebuiDemo.Demo
         [System.Diagnostics.DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            Swebui.Controls.MenuItem menuItem1 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem2 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem3 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem4 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem5 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.MenuItem menuItem6 = new Swebui.Controls.MenuItem();
-            Swebui.Controls.TreeViewNode treeViewNode1 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode2 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode3 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode4 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode5 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode6 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode7 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeViewNode treeViewNode8 = new Swebui.Controls.TreeViewNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode1 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode2 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode3 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode4 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode5 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode6 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode7 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode8 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode9 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode10 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode11 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode12 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode13 = new Swebui.Controls.TreeSelectNode();
-            Swebui.Controls.TreeSelectNode treeSelectNode14 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.MenuItem menuItem19 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem20 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem21 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem22 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem23 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.MenuItem menuItem24 = new Swebui.Controls.MenuItem();
+            Swebui.Controls.TreeViewNode treeViewNode25 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode26 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode27 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode28 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode29 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode30 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode31 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeViewNode treeViewNode32 = new Swebui.Controls.TreeViewNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode43 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode44 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode45 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode46 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode47 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode48 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode49 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode50 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode51 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode52 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode53 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode54 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode55 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.TreeSelectNode treeSelectNode56 = new Swebui.Controls.TreeSelectNode();
+            Swebui.Controls.PopPanelItem popPanelItem19 = new Swebui.Controls.PopPanelItem();
+            Swebui.Controls.PopPanelItem popPanelItem20 = new Swebui.Controls.PopPanelItem();
+            Swebui.Controls.PopPanelItem popPanelItem21 = new Swebui.Controls.PopPanelItem();
+            Swebui.Controls.PopPanelItem popPanelItem22 = new Swebui.Controls.PopPanelItem();
+            Swebui.Controls.PopPanelItem popPanelItem23 = new Swebui.Controls.PopPanelItem();
+            Swebui.Controls.PopPanelItem popPanelItem24 = new Swebui.Controls.PopPanelItem();
             this.panel1 = new Swebui.Controls.Panel();
             this.panel2 = new Swebui.Controls.Panel();
             this.label1 = new Swebui.Controls.Label();
@@ -160,6 +166,14 @@ namespace SwebuiDemo.Demo
             this.label36 = new Swebui.Controls.Label();
             this.treeSelect1 = new Swebui.Controls.TreeSelect();
             this.treeSelect2 = new Swebui.Controls.TreeSelect();
+            this.panel25 = new Swebui.Controls.Panel();
+            this.label37 = new Swebui.Controls.Label();
+            this.label38 = new Swebui.Controls.Label();
+            this.popPanel3 = new Swebui.Controls.PopPanel();
+            this.label40 = new Swebui.Controls.Label();
+            this.label41 = new Swebui.Controls.Label();
+            this.label42 = new Swebui.Controls.Label();
+            this.label43 = new Swebui.Controls.Label();
             // 
             // panel1
             // 
@@ -180,7 +194,8 @@ namespace SwebuiDemo.Demo
             this.panel21,
             this.panel22,
             this.panel23,
-            this.panel24});
+            this.panel24,
+            this.panel25});
             this.panel1.Direction = Swebui.Controls.LayoutDirection.Row;
             this.panel1.Flex = 1;
             this.panel1.Name = "panel1";
@@ -984,28 +999,28 @@ namespace SwebuiDemo.Demo
             // 
             this.menuView1.DefaultIcon = "tasks";
             this.menuView1.Flex = 1;
-            menuItem1.Icon = "car";
-            menuItem1.Id = "1";
-            menuItem2.Id = "1";
-            menuItem2.Text = "二级菜单1";
-            menuItem3.Id = "2";
-            menuItem3.Text = "二级菜单2";
-            menuItem4.Id = "3";
-            menuItem4.Text = "二级菜单3";
-            menuItem5.Id = "4";
-            menuItem5.Text = "二级菜单4";
-            menuItem1.Items.AddRange(new Swebui.Controls.MenuItem[] {
-            menuItem2,
-            menuItem3,
-            menuItem4,
-            menuItem5});
-            menuItem1.Text = "菜单1";
-            menuItem6.Icon = "car";
-            menuItem6.Id = "2";
-            menuItem6.Text = "菜单2";
+            menuItem19.Icon = "car";
+            menuItem19.Id = "1";
+            menuItem20.Id = "1";
+            menuItem20.Text = "二级菜单1";
+            menuItem21.Id = "2";
+            menuItem21.Text = "二级菜单2";
+            menuItem22.Id = "3";
+            menuItem22.Text = "二级菜单3";
+            menuItem23.Id = "4";
+            menuItem23.Text = "二级菜单4";
+            menuItem19.Items.AddRange(new Swebui.Controls.MenuItem[] {
+            menuItem20,
+            menuItem21,
+            menuItem22,
+            menuItem23});
+            menuItem19.Text = "菜单1";
+            menuItem24.Icon = "car";
+            menuItem24.Id = "2";
+            menuItem24.Text = "菜单2";
             this.menuView1.Items.AddRange(new Swebui.Controls.MenuItem[] {
-            menuItem1,
-            menuItem6});
+            menuItem19,
+            menuItem24});
             this.menuView1.Margin = new Swebui.Controls.Margin(10F);
             this.menuView1.Name = "menuView1";
             this.menuView1.Size = new System.Drawing.Size(0, 30);
@@ -1216,41 +1231,41 @@ namespace SwebuiDemo.Demo
             this.treeView1.Flex = 1;
             this.treeView1.Margin = new Swebui.Controls.Margin(10F);
             this.treeView1.Name = "treeView1";
-            treeViewNode1.Count = "4";
-            treeViewNode2.Count = null;
-            treeViewNode2.Text = "菠萝";
-            treeViewNode2.TreeID = "4";
-            treeViewNode3.Count = null;
-            treeViewNode3.Text = "苹果";
-            treeViewNode3.TreeID = "5";
-            treeViewNode4.Count = null;
-            treeViewNode4.Text = "香蕉";
-            treeViewNode4.TreeID = "6";
-            treeViewNode5.Count = null;
-            treeViewNode5.Text = "梨";
-            treeViewNode5.TreeID = "7";
-            treeViewNode1.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode2,
-            treeViewNode3,
-            treeViewNode4,
-            treeViewNode5});
-            treeViewNode1.Text = "水果";
-            treeViewNode1.TreeID = "1";
-            treeViewNode6.Count = "1";
-            treeViewNode7.Count = null;
-            treeViewNode7.Text = "黄瓜";
-            treeViewNode7.TreeID = "8";
-            treeViewNode6.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode7});
-            treeViewNode6.Text = "蔬菜";
-            treeViewNode6.TreeID = "2";
-            treeViewNode8.Count = "0";
-            treeViewNode8.Text = "谷物";
-            treeViewNode8.TreeID = "3";
+            treeViewNode25.Count = "4";
+            treeViewNode26.Count = null;
+            treeViewNode26.Text = "菠萝";
+            treeViewNode26.TreeID = "4";
+            treeViewNode27.Count = null;
+            treeViewNode27.Text = "苹果";
+            treeViewNode27.TreeID = "5";
+            treeViewNode28.Count = null;
+            treeViewNode28.Text = "香蕉";
+            treeViewNode28.TreeID = "6";
+            treeViewNode29.Count = null;
+            treeViewNode29.Text = "梨";
+            treeViewNode29.TreeID = "7";
+            treeViewNode25.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode26,
+            treeViewNode27,
+            treeViewNode28,
+            treeViewNode29});
+            treeViewNode25.Text = "水果";
+            treeViewNode25.TreeID = "1";
+            treeViewNode30.Count = "1";
+            treeViewNode31.Count = null;
+            treeViewNode31.Text = "黄瓜";
+            treeViewNode31.TreeID = "8";
+            treeViewNode30.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
+            treeViewNode31});
+            treeViewNode30.Text = "蔬菜";
+            treeViewNode30.TreeID = "2";
+            treeViewNode32.Count = "0";
+            treeViewNode32.Text = "谷物";
+            treeViewNode32.TreeID = "3";
             this.treeView1.Nodes.AddRange(new Swebui.Controls.TreeViewNode[] {
-            treeViewNode1,
-            treeViewNode6,
-            treeViewNode8});
+            treeViewNode25,
+            treeViewNode30,
+            treeViewNode32});
             this.treeView1.SelectBackgroundColor = System.Drawing.Color.Aqua;
             this.treeView1.ShowCheckBox = true;
             this.treeView1.Size = new System.Drawing.Size(0, 30);
@@ -1316,30 +1331,30 @@ namespace SwebuiDemo.Demo
             this.treeSelect1.ListFontSize = 16F;
             this.treeSelect1.Margin = new Swebui.Controls.Margin(10F);
             this.treeSelect1.Name = "treeSelect1";
-            treeSelectNode2.Text = "苹果";
-            treeSelectNode2.TreeID = "4";
-            treeSelectNode3.Text = "西瓜";
-            treeSelectNode3.TreeID = "5";
-            treeSelectNode4.Text = "梨";
-            treeSelectNode4.TreeID = "6";
-            treeSelectNode1.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
-            treeSelectNode2,
-            treeSelectNode3,
-            treeSelectNode4});
-            treeSelectNode1.Text = "水果";
-            treeSelectNode1.TreeID = "1";
-            treeSelectNode6.Text = "青菜";
-            treeSelectNode6.TreeID = "7";
-            treeSelectNode5.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
-            treeSelectNode6});
-            treeSelectNode5.Text = "蔬菜";
-            treeSelectNode5.TreeID = "2";
-            treeSelectNode7.Text = null;
-            treeSelectNode7.TreeID = "肉";
+            treeSelectNode44.Text = "苹果";
+            treeSelectNode44.TreeID = "4";
+            treeSelectNode45.Text = "西瓜";
+            treeSelectNode45.TreeID = "5";
+            treeSelectNode46.Text = "梨";
+            treeSelectNode46.TreeID = "6";
+            treeSelectNode43.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
+            treeSelectNode44,
+            treeSelectNode45,
+            treeSelectNode46});
+            treeSelectNode43.Text = "水果";
+            treeSelectNode43.TreeID = "1";
+            treeSelectNode48.Text = "青菜";
+            treeSelectNode48.TreeID = "7";
+            treeSelectNode47.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
+            treeSelectNode48});
+            treeSelectNode47.Text = "蔬菜";
+            treeSelectNode47.TreeID = "2";
+            treeSelectNode49.Text = null;
+            treeSelectNode49.TreeID = "肉";
             this.treeSelect1.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
-            treeSelectNode1,
-            treeSelectNode5,
-            treeSelectNode7});
+            treeSelectNode43,
+            treeSelectNode47,
+            treeSelectNode49});
             this.treeSelect1.Placeholder = "请选择（单选）";
             this.treeSelect1.Size = new System.Drawing.Size(0, 30);
             // 
@@ -1352,34 +1367,117 @@ namespace SwebuiDemo.Demo
             this.treeSelect2.Margin = new Swebui.Controls.Margin(10F);
             this.treeSelect2.Multiple = true;
             this.treeSelect2.Name = "treeSelect2";
-            treeSelectNode9.Text = "苹果";
-            treeSelectNode9.TreeID = "4";
-            treeSelectNode10.Text = "梨";
-            treeSelectNode10.TreeID = "5";
-            treeSelectNode11.Text = "西瓜";
-            treeSelectNode11.TreeID = "6";
-            treeSelectNode8.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
-            treeSelectNode9,
-            treeSelectNode10,
-            treeSelectNode11});
-            treeSelectNode8.Text = "水果";
-            treeSelectNode8.TreeID = "1";
-            treeSelectNode13.Text = "青菜";
-            treeSelectNode13.TreeID = "7";
-            treeSelectNode12.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
-            treeSelectNode13});
-            treeSelectNode12.Text = "蔬菜";
-            treeSelectNode12.TreeID = "2";
-            treeSelectNode14.Text = "肉";
-            treeSelectNode14.TreeID = "3";
+            treeSelectNode51.Text = "苹果";
+            treeSelectNode51.TreeID = "4";
+            treeSelectNode52.Text = "梨";
+            treeSelectNode52.TreeID = "5";
+            treeSelectNode53.Text = "西瓜";
+            treeSelectNode53.TreeID = "6";
+            treeSelectNode50.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
+            treeSelectNode51,
+            treeSelectNode52,
+            treeSelectNode53});
+            treeSelectNode50.Text = "水果";
+            treeSelectNode50.TreeID = "1";
+            treeSelectNode55.Text = "青菜";
+            treeSelectNode55.TreeID = "7";
+            treeSelectNode54.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
+            treeSelectNode55});
+            treeSelectNode54.Text = "蔬菜";
+            treeSelectNode54.TreeID = "2";
+            treeSelectNode56.Text = "肉";
+            treeSelectNode56.TreeID = "3";
             this.treeSelect2.Nodes.AddRange(new Swebui.Controls.TreeSelectNode[] {
-            treeSelectNode8,
-            treeSelectNode12,
-            treeSelectNode14});
+            treeSelectNode50,
+            treeSelectNode54,
+            treeSelectNode56});
             this.treeSelect2.Placeholder = "请选择（多选）";
             this.treeSelect2.Size = new System.Drawing.Size(0, 30);
             this.treeSelect2.TagBackgroundColor = System.Drawing.Color.SkyBlue;
             this.treeSelect2.TagColor = System.Drawing.Color.White;
+            // 
+            // panel25
+            // 
+            this.panel25.Border = new Swebui.Controls.Border(1F);
+            this.panel25.BorderRadius = 4;
+            this.panel25.Controls.AddRange(new Swebui.Controls.SwebControl[] {
+            this.label37,
+            this.label38,
+            this.popPanel3});
+            this.panel25.Margin = new Swebui.Controls.Margin(10F);
+            this.panel25.Name = "panel25";
+            this.panel25.Scrollable = true;
+            this.panel25.Size = new System.Drawing.Size(300, 364);
+            // 
+            // label37
+            // 
+            this.label37.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
+            this.label37.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(300, 36);
+            this.label37.Text = "PopPanel";
+            this.label37.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // label38
+            // 
+            this.label38.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
+            this.label38.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(0, 35);
+            this.label38.Text = "弹出菜单容器控件";
+            this.label38.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // popPanel3
+            // 
+            this.popPanel3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.popPanel3.Controls.AddRange(new Swebui.Controls.SwebControl[] {
+            this.label40,
+            this.label41,
+            this.label42,
+            this.label43});
+            this.popPanel3.Margin = new Swebui.Controls.Margin(10F);
+            this.popPanel3.Name = "popPanel3";
+            popPanelItem20.Text = "二级菜单一";
+            popPanelItem21.Text = "二级菜单二";
+            popPanelItem19.Items.AddRange(new Swebui.Controls.PopPanelItem[] {
+            popPanelItem20,
+            popPanelItem21});
+            popPanelItem19.Text = "菜单项1";
+            popPanelItem22.Text = "菜单项2";
+            popPanelItem23.Text = "菜单项3";
+            popPanelItem24.Text = "菜单项4";
+            this.popPanel3.PopItems.AddRange(new Swebui.Controls.PopPanelItem[] {
+            popPanelItem19,
+            popPanelItem22,
+            popPanelItem23,
+            popPanelItem24});
+            this.popPanel3.PopType = Swebui.Controls.PopPanelType.Click;
+            this.popPanel3.Size = new System.Drawing.Size(0, 150);
+            this.popPanel3.Select += new Swebui.Controls.PopPanelItemSelectEventHandler(this.popPanel1_Select);
+            // 
+            // label40
+            // 
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(0, 35);
+            this.label40.Text = "菜单项1";
+            // 
+            // label41
+            // 
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(0, 35);
+            this.label41.Text = "菜单项2";
+            // 
+            // label42
+            // 
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(0, 35);
+            this.label42.Text = "菜单项3";
+            // 
+            // label43
+            // 
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(0, 35);
+            this.label43.Text = "菜单项3";
             // 
             // demoTemplate
             // 
@@ -1390,6 +1488,7 @@ namespace SwebuiDemo.Demo
             this.Size = new System.Drawing.Size(0, 6000);
             this.Wrap = Swebui.Controls.LayoutWrap.Wrap;
             this.Load += new System.EventHandler(this.demoTemplate_Load);
+            this.Name = "demoTemplate";
 
         }
         #endregion
@@ -1499,5 +1598,13 @@ namespace SwebuiDemo.Demo
         private Label label36;
         private TreeSelect treeSelect1;
         private TreeSelect treeSelect2;
+        private Panel panel25;
+        private Label label37;
+        private Label label38;
+        private PopPanel popPanel3;
+        private Label label40;
+        private Label label41;
+        private Label label42;
+        private Label label43;
     }
 }

@@ -671,5 +671,31 @@ namespace SwebuiDemo.Demo
             mediaView1.Pause(isflag);
             isflag = !isflag;
         }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            tts1.Speak("你好世界 ！这是测试语句", TTSLanguage.zh, 1);
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            tts1.Speak("你好世界 ！这是测试语句", TTSLanguage.zh, 2);
+        
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            tts1.Speak("Hello, this is an English test sentence", TTSLanguage.en, 1);
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            tts1.Speak("Hello, this is an English test sentence", TTSLanguage.en, 2);
+        }
+
+        private void popPanel1_Select(object sender, PopPanelItemSelectEventArgs e)
+        {
+
+        }
     }
 }

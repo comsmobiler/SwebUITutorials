@@ -28,9 +28,18 @@ namespace SwebuiDemo.Demo
             this.button6 = new Swebui.Controls.Button();
             this.button7 = new Swebui.Controls.Button();
             this.button9 = new Swebui.Controls.Button();
+            this.panel2 = new Swebui.Controls.Panel();
             this.button8 = new Swebui.Controls.Button();
             this.button10 = new Swebui.Controls.Button();
             this.button11 = new Swebui.Controls.Button();
+            this.button12 = new Swebui.Controls.Button();
+            this.button13 = new Swebui.Controls.Button();
+            this.button14 = new Swebui.Controls.Button();
+            this.button15 = new Swebui.Controls.Button();
+            this.button16 = new Swebui.Controls.Button();
+            this.panel3 = new Swebui.Controls.Panel();
+            this.button17 = new Swebui.Controls.Button();
+            this.button18 = new Swebui.Controls.Button();
             // 
             // panel1
             // 
@@ -42,13 +51,10 @@ namespace SwebuiDemo.Demo
             this.button5,
             this.button6,
             this.button7,
-            this.button9,
-            this.button8,
-            this.button10,
-            this.button11});
+            this.button9});
             this.panel1.Flex = 1;
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(0, 100);
+            this.panel1.Size = new System.Drawing.Size(0, 0);
             // 
             // button1
             // 
@@ -122,6 +128,21 @@ namespace SwebuiDemo.Demo
             this.button9.Text = "Print html";
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
+            // panel2
+            // 
+            this.panel2.Controls.AddRange(new Swebui.Controls.SwebControl[] {
+            this.button8,
+            this.button10,
+            this.button11,
+            this.button12,
+            this.button13,
+            this.button14,
+            this.button15,
+            this.button16});
+            this.panel2.Flex = 1;
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(300, 0);
+            // 
             // button8
             // 
             this.button8.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
@@ -149,10 +170,85 @@ namespace SwebuiDemo.Demo
             this.button11.Text = "JSAppend";
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
+            // button12
+            // 
+            this.button12.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
+            this.button12.Name = "button12";
+            this.button12.NumberOfLines = 0;
+            this.button12.Size = new System.Drawing.Size(150, 35);
+            this.button12.Text = "设置粘贴板";
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button13
+            // 
+            this.button13.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
+            this.button13.Name = "button13";
+            this.button13.NumberOfLines = 0;
+            this.button13.Size = new System.Drawing.Size(150, 35);
+            this.button13.Text = "获取粘贴板";
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button14
+            // 
+            this.button14.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
+            this.button14.Name = "button14";
+            this.button14.NumberOfLines = 0;
+            this.button14.Size = new System.Drawing.Size(150, 35);
+            this.button14.Text = "压缩上传";
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button15
+            // 
+            this.button15.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
+            this.button15.Name = "button15";
+            this.button15.NumberOfLines = 0;
+            this.button15.Size = new System.Drawing.Size(150, 35);
+            this.button15.Text = "原画上传";
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // button16
+            // 
+            this.button16.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
+            this.button16.Name = "button16";
+            this.button16.NumberOfLines = 0;
+            this.button16.Size = new System.Drawing.Size(150, 35);
+            this.button16.Text = "播放音频";
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.AddRange(new Swebui.Controls.SwebControl[] {
+            this.button17,
+            this.button18});
+            this.panel3.Flex = 1;
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(300, 0);
+            // 
+            // button17
+            // 
+            this.button17.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
+            this.button17.Name = "button17";
+            this.button17.NumberOfLines = 0;
+            this.button17.Size = new System.Drawing.Size(150, 35);
+            this.button17.Text = "停止播放音频";
+            this.button17.Click += new System.EventHandler(this.button17_Click);
+            // 
+            // button18
+            // 
+            this.button18.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
+            this.button18.Name = "button18";
+            this.button18.NumberOfLines = 0;
+            this.button18.Size = new System.Drawing.Size(150, 35);
+            this.button18.Visible = false;
+            // 
             // demoClient
             // 
             this.Controls.AddRange(new Swebui.Controls.SwebControl[] {
-            this.panel1});
+            this.panel1,
+            this.panel2,
+            this.panel3});
+            this.Direction = Swebui.Controls.LayoutDirection.Row;
+            this.Name = "demoClient";
 
         }
         #endregion
@@ -166,8 +262,17 @@ namespace SwebuiDemo.Demo
         private Button button6;
         private Button button7;
         private Button button9;
+        private Panel panel2;
         private Button button8;
         private Button button10;
         private Button button11;
+        private Button button12;
+        private Button button13;
+        private Button button14;
+        private Button button15;
+        private Button button16;
+        private Panel panel3;
+        private Button button17;
+        private Button button18;
     }
 }
