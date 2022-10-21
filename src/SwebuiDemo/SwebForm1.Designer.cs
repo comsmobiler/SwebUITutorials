@@ -215,7 +215,9 @@ namespace SwebuiDemo
             this.panel1});
             this.Direction = Swebui.Controls.LayoutDirection.Row;
             this.Size = new System.Drawing.Size(1000, 600);
+            this.CustomCallBack += new Swebui.Controls.CustomCallBackEventHandler(this.SwebForm1_CustomCallBack);
             this.Load += new System.EventHandler(this.SwebForm1_Load);
+            this.Name = "SwebForm1";
 
         }
         #endregion

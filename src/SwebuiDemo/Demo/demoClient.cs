@@ -97,5 +97,22 @@ namespace SwebuiDemo.Demo
                     Toast(args.error);
             }, JScriptType.Script, JScriptAppendType.Body);
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            string jscode = @"window.customCallBack(""js发送信息""); ";
+            this.Client.JSEval(jscode, (obj, args) => { });
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            //SwebForm1 为窗体Name，button2为SwebForm1窗体中的按钮
+            string jscode = @"let ctl = findControl('SwebForm1');
+                            let button = findControl('button2', ctl);   
+                            alert(button.innerText);
+                            ";
+            this.Client.JSEval(jscode, (obj, args) =>
+            {  });
+        }
     }
 }

@@ -31,6 +31,8 @@ namespace SwebuiDemo.Demo
             this.button8 = new Swebui.Controls.Button();
             this.button10 = new Swebui.Controls.Button();
             this.button11 = new Swebui.Controls.Button();
+            this.button12 = new Swebui.Controls.Button();
+            this.button13 = new Swebui.Controls.Button();
             // 
             // panel1
             // 
@@ -45,10 +47,14 @@ namespace SwebuiDemo.Demo
             this.button9,
             this.button8,
             this.button10,
-            this.button11});
+            this.button11,
+            this.button12,
+            this.button13});
+            this.panel1.Direction = Swebui.Controls.LayoutDirection.Row;
             this.panel1.Flex = 1;
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(0, 100);
+            this.panel1.Wrap = Swebui.Controls.LayoutWrap.Wrap;
             // 
             // button1
             // 
@@ -100,7 +106,7 @@ namespace SwebuiDemo.Demo
             this.button6.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
             this.button6.Name = "button6";
             this.button6.NumberOfLines = 0;
-            this.button6.Size = new System.Drawing.Size(150, 35);
+            this.button6.Size = new System.Drawing.Size(310, 35);
             this.button6.Text = "RedirectUrl（新标签打开百度）";
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -109,7 +115,7 @@ namespace SwebuiDemo.Demo
             this.button7.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
             this.button7.Name = "button7";
             this.button7.NumberOfLines = 0;
-            this.button7.Size = new System.Drawing.Size(150, 35);
+            this.button7.Size = new System.Drawing.Size(310, 35);
             this.button7.Text = "RedirectUrl（当前标签打开首页）";
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -149,10 +155,29 @@ namespace SwebuiDemo.Demo
             this.button11.Text = "JSAppend";
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
+            // button12
+            // 
+            this.button12.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
+            this.button12.Name = "button12";
+            this.button12.NumberOfLines = 0;
+            this.button12.Size = new System.Drawing.Size(310, 35);
+            this.button12.Text = "JSEval 执行window.customCallBack";
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button13
+            // 
+            this.button13.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
+            this.button13.Name = "button13";
+            this.button13.NumberOfLines = 0;
+            this.button13.Size = new System.Drawing.Size(310, 35);
+            this.button13.Text = "JSEval 查找窗体中的button2";
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
             // demoClient
             // 
             this.Controls.AddRange(new Swebui.Controls.SwebControl[] {
             this.panel1});
+            this.Name = "demoClient";
 
         }
         #endregion
@@ -169,5 +194,7 @@ namespace SwebuiDemo.Demo
         private Button button8;
         private Button button10;
         private Button button11;
+        private Button button12;
+        private Button button13;
     }
 }

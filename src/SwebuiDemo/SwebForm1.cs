@@ -96,6 +96,10 @@ namespace SwebuiDemo
                 menuView1.DefaultSelectedItem = null;
             }
         }
-    
+
+        private void SwebForm1_CustomCallBack(object sender, CustomCallBackEventArgs e)
+        {
+            Toast("SwebForm1 窗体接收到："+e.Params.ToString());
+        }
     }
 }
