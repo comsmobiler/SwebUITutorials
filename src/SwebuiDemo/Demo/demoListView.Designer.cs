@@ -28,10 +28,10 @@ namespace SwebuiDemo.Demo
         private void InitializeComponent()
         {
             this.panel1 = new Swebui.Controls.Panel();
-            this.panel2 = new Swebui.Controls.Panel();
             this.label1 = new Swebui.Controls.Label();
-            this.label2 = new Swebui.Controls.Label();
             this.listView1 = new Swebui.Controls.ListView();
+            this.panel2 = new Swebui.Controls.Panel();
+            this.label2 = new Swebui.Controls.Label();
             this.sectionListView1 = new Swebui.Controls.SectionListView();
             // 
             // panel1
@@ -46,6 +46,22 @@ namespace SwebuiDemo.Demo
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(101, 0);
             // 
+            // label1
+            // 
+            this.label1.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
+            this.label1.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 35);
+            this.label1.Text = "ListView";
+            this.label1.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // listView1
+            // 
+            this.listView1.Flex = 1;
+            this.listView1.Name = "listView1";
+            this.listView1.PageSizeTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.listView1.Size = new System.Drawing.Size(0, 300);
+            // 
             // panel2
             // 
             this.panel2.Border = new Swebui.Controls.Border(1F);
@@ -58,15 +74,6 @@ namespace SwebuiDemo.Demo
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(300, 0);
             // 
-            // label1
-            // 
-            this.label1.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
-            this.label1.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 35);
-            this.label1.Text = "ListView";
-            this.label1.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
-            // 
             // label2
             // 
             this.label2.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
@@ -76,21 +83,12 @@ namespace SwebuiDemo.Demo
             this.label2.Text = "SectionListView";
             this.label2.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
             // 
-            // listView1
-            // 
-            this.listView1.Flex = 1;
-            this.listView1.Name = "listView1";
-            this.listView1.PageSizeTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
-            this.listView1.Size = new System.Drawing.Size(0, 300);
-            // 
             // sectionListView1
             // 
             this.sectionListView1.Flex = 1;
             this.sectionListView1.Name = "sectionListView1";
-            this.sectionListView1.SectionControlName = "SectLayout";
             this.sectionListView1.SectionMember = "SectLab";
             this.sectionListView1.Size = new System.Drawing.Size(0, 300);
-            this.sectionListView1.TemplateControlName = "demoListViewTemplate";
             // 
             // demoListView
             // 
@@ -100,6 +98,7 @@ namespace SwebuiDemo.Demo
             this.Direction = Swebui.Controls.LayoutDirection.Row;
             this.Padding = new Swebui.Controls.Padding(10F);
             this.Load += new System.EventHandler(this.demoTemplate_Load);
+            this.Name = "demoListView";
 
         }
         #endregion

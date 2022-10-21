@@ -102,5 +102,10 @@ namespace SwebuiDemo.Demo
         {
             Client.SetEJControlTheme(EJTheme.Light);
         }
+
+        private void popPanel1_Select(object sender, PopPanelItemSelectEventArgs e)
+        {
+
+        }
     }
 }

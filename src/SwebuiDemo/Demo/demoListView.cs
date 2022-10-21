@@ -41,6 +41,8 @@ namespace SwebuiDemo.Demo
             //sectionListView1.TemplateControl = new demoListViewTemplate();
 
             sectionListView1.DataSource = dt1;
+            sectionListView1.SectionControl = new SwebUserControl();
+            sectionListView1.TemplateControl = new demoListViewTemplate();
             sectionListView1.DataBind();
 
 

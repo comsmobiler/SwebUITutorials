@@ -114,5 +114,24 @@ namespace SwebuiDemo.Demo
             this.Client.JSEval(jscode, (obj, args) =>
             {  });
         }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            this.Client.SetClipBoard("时间是：" + DateTime.Now.ToString(), (obj, args) => {
+                if (args.isError == false)
+                    Toast("设置成功");
+                else Toast(args.error);
+            });
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            this.Client.GetClipBoard((obj, args) =>
+            {
+                if (args.isError == false)
+                    Toast(args.Data);
+                else Toast(args.error);
+            });
+        }
     }
 }

@@ -33,6 +33,8 @@ namespace SwebuiDemo.Demo
             this.button11 = new Swebui.Controls.Button();
             this.button12 = new Swebui.Controls.Button();
             this.button13 = new Swebui.Controls.Button();
+            this.button14 = new Swebui.Controls.Button();
+            this.button15 = new Swebui.Controls.Button();
             // 
             // panel1
             // 
@@ -49,7 +51,9 @@ namespace SwebuiDemo.Demo
             this.button10,
             this.button11,
             this.button12,
-            this.button13});
+            this.button13,
+            this.button14,
+            this.button15});
             this.panel1.Direction = Swebui.Controls.LayoutDirection.Row;
             this.panel1.Flex = 1;
             this.panel1.Name = "panel1";
@@ -173,6 +177,24 @@ namespace SwebuiDemo.Demo
             this.button13.Text = "JSEval 查找窗体中的button2";
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
+            // button14
+            // 
+            this.button14.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
+            this.button14.Name = "button14";
+            this.button14.NumberOfLines = 0;
+            this.button14.Size = new System.Drawing.Size(150, 35);
+            this.button14.Text = "设置粘贴板为当前时间";
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button15
+            // 
+            this.button15.Margin = new Swebui.Controls.Margin(10F, 10F, 0F, 0F);
+            this.button15.Name = "button15";
+            this.button15.NumberOfLines = 0;
+            this.button15.Size = new System.Drawing.Size(150, 35);
+            this.button15.Text = "获取粘贴板";
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
             // demoClient
             // 
             this.Controls.AddRange(new Swebui.Controls.SwebControl[] {
@@ -196,5 +218,7 @@ namespace SwebuiDemo.Demo
         private Button button11;
         private Button button12;
         private Button button13;
+        private Button button14;
+        private Button button15;
     }
 }

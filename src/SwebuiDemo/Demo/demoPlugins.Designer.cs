@@ -75,9 +75,17 @@ namespace SwebuiDemo.Demo
             this.label10 = new Swebui.Controls.Label();
             this.htmlView1 = new Swebui.Controls.HTMLView();
             this.button15 = new Swebui.Controls.Button();
+            this.panel11 = new Swebui.Controls.Panel();
+            this.label37 = new Swebui.Controls.Label();
+            this.label38 = new Swebui.Controls.Label();
+            this.button18 = new Swebui.Controls.Button();
+            this.button19 = new Swebui.Controls.Button();
+            this.button20 = new Swebui.Controls.Button();
+            this.button21 = new Swebui.Controls.Button();
             this.animation1 = new Swebui.Controls.Animation();
             this.animation2 = new Swebui.Controls.Animation();
             this.animation3 = new Swebui.Controls.Animation();
+            this.tts1 = new Swebui.Controls.TTS();
             // 
             // panel1
             // 
@@ -88,7 +96,8 @@ namespace SwebuiDemo.Demo
             this.panel6,
             this.panel7,
             this.panel8,
-            this.panel9});
+            this.panel9,
+            this.panel11});
             this.panel1.Direction = Swebui.Controls.LayoutDirection.Row;
             this.panel1.Flex = 1;
             this.panel1.Name = "panel1";
@@ -519,6 +528,75 @@ namespace SwebuiDemo.Demo
             this.button15.Text = "点击，使得方块移动";
             this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
+            // panel11
+            // 
+            this.panel11.Border = new Swebui.Controls.Border(1F);
+            this.panel11.BorderRadius = 4;
+            this.panel11.Controls.AddRange(new Swebui.Controls.SwebControl[] {
+            this.label37,
+            this.label38,
+            this.button18,
+            this.button19,
+            this.button20,
+            this.button21});
+            this.panel11.Margin = new Swebui.Controls.Margin(10F);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(500, 700);
+            // 
+            // label37
+            // 
+            this.label37.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
+            this.label37.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(0, 35);
+            this.label37.Text = "TTS";
+            this.label37.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // label38
+            // 
+            this.label38.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
+            this.label38.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(0, 35);
+            this.label38.Text = "文本转语音插件";
+            this.label38.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // button18
+            // 
+            this.button18.Margin = new Swebui.Controls.Margin(10F);
+            this.button18.Name = "button18";
+            this.button18.NumberOfLines = 0;
+            this.button18.Size = new System.Drawing.Size(0, 35);
+            this.button18.Text = "中文 1倍速";
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // button19
+            // 
+            this.button19.Margin = new Swebui.Controls.Margin(10F);
+            this.button19.Name = "button19";
+            this.button19.NumberOfLines = 0;
+            this.button19.Size = new System.Drawing.Size(0, 35);
+            this.button19.Text = "中文2倍速";
+            this.button19.Click += new System.EventHandler(this.button19_Click);
+            // 
+            // button20
+            // 
+            this.button20.Margin = new Swebui.Controls.Margin(10F);
+            this.button20.Name = "button20";
+            this.button20.NumberOfLines = 0;
+            this.button20.Size = new System.Drawing.Size(0, 35);
+            this.button20.Text = "英文1倍速";
+            this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
+            // button21
+            // 
+            this.button21.Margin = new Swebui.Controls.Margin(10F);
+            this.button21.Name = "button21";
+            this.button21.NumberOfLines = 0;
+            this.button21.Size = new System.Drawing.Size(0, 35);
+            this.button21.Text = "英文2倍速";
+            this.button21.Click += new System.EventHandler(this.button21_Click);
+            // 
             // animation1
             // 
             this.animation1.Duration = 3000;
@@ -547,12 +625,17 @@ namespace SwebuiDemo.Demo
             this.animation3.Loop = -1;
             this.animation3.Name = "animation3";
             // 
+            // tts1
+            // 
+            this.tts1.Name = "tts1";
+            // 
             // demoPlugins
             // 
             this.Components.AddRange(new Swebui.Controls.SwebComponent[] {
             this.animation1,
             this.animation2,
-            this.animation3});
+            this.animation3,
+            this.tts1});
             this.Controls.AddRange(new Swebui.Controls.SwebControl[] {
             this.panel1});
             this.Size = new System.Drawing.Size(0, 2900);
@@ -603,12 +686,20 @@ namespace SwebuiDemo.Demo
         private Panel panel8;
         private Label label9;
         private Svg svg1;
+        private Panel panel10;
+        private Button button16;
+        private Button button17;
         private Panel panel9;
         private Label label10;
         private HTMLView htmlView1;
         private Button button15;
-        private Panel panel10;
-        private Button button16;
-        private Button button17;
+        private TTS tts1;
+        private Panel panel11;
+        private Label label37;
+        private Label label38;
+        private Button button18;
+        private Button button19;
+        private Button button20;
+        private Button button21;
     }
 }

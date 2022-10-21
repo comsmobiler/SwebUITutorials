@@ -144,6 +144,12 @@
     <Compile Include="Demo\ImageButton.Designer.cs">
       <DependentUpon>ImageButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="Demo\popcontrol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\popcontrol.Designer.cs">
+      <DependentUpon>popcontrol.cs</DependentUpon>
+    </Compile>
     <Compile Include="Demo\SectLayout.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -221,6 +227,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Demo\ImageButton.resx">
       <DependentUpon>ImageButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\popcontrol.resx">
+      <DependentUpon>popcontrol.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Demo\SectLayout.resx">
       <DependentUpon>SectLayout.cs</DependentUpon>
