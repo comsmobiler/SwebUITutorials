@@ -37,12 +37,10 @@ namespace SwebuiDemo.Demo
             {
                 dt1.Rows.Add("Sect " + i, "user_image.png", "请教一下关于项目部署的问题", "最近尝试了贵公司的产品，用C#开发手机端应用的创意非常赞", i * 10 + 1, DateTime.Now.ToString("yyyy/MM/dd"));
             }
-            //sectionListView1.SectionControl = new SectLayout();
-            //sectionListView1.TemplateControl = new demoListViewTemplate();
+            sectionListView1.SectionControl = new SectLayout();
+            sectionListView1.TemplateControl = new demoListViewTemplate();
 
             sectionListView1.DataSource = dt1;
-            sectionListView1.SectionControl = new SwebUserControl();
-            sectionListView1.TemplateControl = new demoListViewTemplate();
             sectionListView1.DataBind();
 
 
