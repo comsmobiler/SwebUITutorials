@@ -84,6 +84,7 @@ namespace SwebuiDemo
             titleList.RemoveAt(e.PageIndex);
             orderDict.Remove(itemsList[e.PageIndex]);
             itemsList.RemoveAt(e.PageIndex);
+            GC.Collect();
         }
 
         private void tabPageView1_PageChanged(object sender, TabPageViewChangedEventArgs e)

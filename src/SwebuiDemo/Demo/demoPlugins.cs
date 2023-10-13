@@ -156,7 +156,8 @@ namespace SwebuiDemo.Demo
         }
 
         private void button1_Click(object sender, EventArgs e)
-        { animation1.Play();
+        {
+            animation1.Play();
 
         }
 
@@ -202,9 +203,9 @@ namespace SwebuiDemo.Demo
             else
             {
                 string str = "";
-                foreach(var item in e.Selected)
+                foreach (var item in e.Selected)
                 {
-                    str += "  图例名称: " + item.Key + "  是否显示: " + item.Value+"  ";
+                    str += "  图例名称: " + item.Key + "  是否显示: " + item.Value + "  ";
                 }
 
                 Toast($"点击图例名：{e.PressedName} {str}");
@@ -680,7 +681,7 @@ namespace SwebuiDemo.Demo
         private void button19_Click(object sender, EventArgs e)
         {
             tts1.Speak("你好世界 ！这是测试语句", TTSLanguage.zh, 2);
-        
+
         }
 
         private void button20_Click(object sender, EventArgs e)
@@ -696,6 +697,31 @@ namespace SwebuiDemo.Demo
         private void popPanel1_Select(object sender, PopPanelItemSelectEventArgs e)
         {
 
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            signatureView1.Clear();
+        }
+
+        private void signatureView1_OnSignatureImageSave(object sender, BinaryResultArgs e)
+        {
+            if (e.isError == false)
+            {
+                string filename = "tetstsignauture.png";
+                e.SaveFile(filename);
+                image1.ResourceID = filename;
+                image1.Refresh();
+                Toast("save success");
+            }
+            else
+                Toast(e.error);
+
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            signatureView1.Save();
         }
     }
 }

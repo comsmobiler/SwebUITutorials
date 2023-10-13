@@ -82,6 +82,14 @@ namespace SwebuiDemo.Demo
             this.button19 = new Swebui.Controls.Button();
             this.button20 = new Swebui.Controls.Button();
             this.button21 = new Swebui.Controls.Button();
+            this.panel12 = new Swebui.Controls.Panel();
+            this.label11 = new Swebui.Controls.Label();
+            this.label12 = new Swebui.Controls.Label();
+            this.signatureView1 = new Swebui.Controls.SignatureView();
+            this.panel13 = new Swebui.Controls.Panel();
+            this.button22 = new Swebui.Controls.Button();
+            this.button23 = new Swebui.Controls.Button();
+            this.image1 = new Swebui.Controls.Image();
             this.animation1 = new Swebui.Controls.Animation();
             this.animation2 = new Swebui.Controls.Animation();
             this.animation3 = new Swebui.Controls.Animation();
@@ -97,7 +105,8 @@ namespace SwebuiDemo.Demo
             this.panel7,
             this.panel8,
             this.panel9,
-            this.panel11});
+            this.panel11,
+            this.panel12});
             this.panel1.Direction = Swebui.Controls.LayoutDirection.Row;
             this.panel1.Flex = 1;
             this.panel1.Name = "panel1";
@@ -597,6 +606,85 @@ namespace SwebuiDemo.Demo
             this.button21.Text = "英文2倍速";
             this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
+            // panel12
+            // 
+            this.panel12.Border = new Swebui.Controls.Border(1F);
+            this.panel12.BorderRadius = 4;
+            this.panel12.Controls.AddRange(new Swebui.Controls.SwebControl[] {
+            this.label11,
+            this.label12,
+            this.signatureView1,
+            this.panel13,
+            this.image1});
+            this.panel12.Margin = new Swebui.Controls.Margin(10F);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(500, 700);
+            // 
+            // label11
+            // 
+            this.label11.Border = new Swebui.Controls.Border(0F, 0F, 0F, 1F);
+            this.label11.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(0, 35);
+            this.label11.Text = "SignatureView";
+            this.label11.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // label12
+            // 
+            this.label12.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Center;
+            this.label12.Margin = new Swebui.Controls.Margin(10F, 10F, 10F, 0F);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(0, 35);
+            this.label12.Text = "签字控件，请在下方签字";
+            this.label12.VerticalAlignment = Swebui.Controls.VerticalAlignment.Center;
+            // 
+            // signatureView1
+            // 
+            this.signatureView1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.signatureView1.Margin = new Swebui.Controls.Margin(10F);
+            this.signatureView1.Name = "signatureView1";
+            this.signatureView1.Size = new System.Drawing.Size(0, 261);
+            this.signatureView1.OnSignatureImageSave += new Swebui.Controls.BinaryResultCallBackHandler(this.signatureView1_OnSignatureImageSave);
+            // 
+            // panel13
+            // 
+            this.panel13.Controls.AddRange(new Swebui.Controls.SwebControl[] {
+            this.button22,
+            this.button23});
+            this.panel13.Direction = Swebui.Controls.LayoutDirection.Row;
+            this.panel13.Margin = new Swebui.Controls.Margin(10F);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(0, 40);
+            // 
+            // button22
+            // 
+            this.button22.Flex = 1;
+            this.button22.Margin = new Swebui.Controls.Margin(0F, 0F, 5F, 0F);
+            this.button22.Name = "button22";
+            this.button22.NumberOfLines = 0;
+            this.button22.Size = new System.Drawing.Size(295, 35);
+            this.button22.Text = "清除";
+            this.button22.Click += new System.EventHandler(this.button22_Click);
+            // 
+            // button23
+            // 
+            this.button23.Flex = 1;
+            this.button23.Name = "button23";
+            this.button23.NumberOfLines = 0;
+            this.button23.Size = new System.Drawing.Size(100, 35);
+            this.button23.Text = "保存";
+            this.button23.Click += new System.EventHandler(this.button23_Click);
+            // 
+            // image1
+            // 
+            this.image1.Margin = new Swebui.Controls.Margin(10F);
+            this.image1.Name = "image1";
+            this.image1.ResourceID = "";
+            this.image1.ResourcePath = "upload";
+            this.image1.Size = new System.Drawing.Size(0, 216);
+            this.image1.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
+            this.image1.SourceHotReadload = true;
+            // 
             // animation1
             // 
             this.animation1.Duration = 3000;
@@ -638,7 +726,7 @@ namespace SwebuiDemo.Demo
             this.tts1});
             this.Controls.AddRange(new Swebui.Controls.SwebControl[] {
             this.panel1});
-            this.Size = new System.Drawing.Size(0, 2900);
+            this.Size = new System.Drawing.Size(0, 4900);
             this.Load += new System.EventHandler(this.demoPlugins_Load);
             this.Name = "demoPlugins";
 
@@ -701,5 +789,13 @@ namespace SwebuiDemo.Demo
         private Button button19;
         private Button button20;
         private Button button21;
+        private Panel panel12;
+        private Label label11;
+        private Label label12;
+        private SignatureView signatureView1;
+        private Panel panel13;
+        private Button button22;
+        private Button button23;
+        private Image image1;
     }
 }
