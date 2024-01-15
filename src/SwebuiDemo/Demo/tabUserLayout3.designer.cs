@@ -40,7 +40,6 @@ namespace SwebuiDemo.Demo
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(179)))), ((int)(((byte)(148)))));
-            this.button1.LineHeight = 0F;
             this.button1.Name = "button1";
             this.button1.NumberOfLines = 0;
             this.button1.Size = new System.Drawing.Size(66, 35);
@@ -66,8 +65,8 @@ namespace SwebuiDemo.Demo
             this.image1});
             this.Flex = 1;
             this.Padding = new Swebui.Controls.Padding(10F);
-            this.Wrap = Swebui.Controls.LayoutWrap.Wrap;
             this.Load += new System.EventHandler(this.demoUserTemplate_Load);
+            this.Name = "tabUserLayout3";
 
         }
         #endregion
