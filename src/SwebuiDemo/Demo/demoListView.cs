@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using Swebui.Controls;
 
 namespace SwebuiDemo.Demo
@@ -42,8 +43,17 @@ namespace SwebuiDemo.Demo
 
             sectionListView1.DataSource = dt1;
             sectionListView1.DataBind();
+            Thread thread = new Thread(() =>
+            {
+              
+                    Thread.Sleep(2000);
+                sectionListView1.AutoScroll(new AutoScrollParameter() { Type = AutoScrollType.Repeat, Speed = 10 });
 
 
+                Console.WriteLine("Íê³É£¡");
+            });
+            thread.Start();
+          
         }
     }
 }

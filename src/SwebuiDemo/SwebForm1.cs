@@ -31,7 +31,8 @@ namespace SwebuiDemo
             demoItem.Items.Add(new MenuItem("OtherControls", "OtherControls") { Tag = typeof(demoPlugins) });
             demoItem.Items.Add(new MenuItem("自定义控件", "自定义控件") { Tag = typeof(demoCustm) });
             demoItem.Items.Add(new MenuItem("Client", "Client") { Tag = typeof(demoClient) });
-
+            demoItem.Items.Add(new MenuItem("Editer", "Editer") { Tag = typeof(demoEditer) });
+            demoItem.Items.Add(new MenuItem("Panel", "Panel") { Tag = typeof(demoPanel) });
             this.menuView1.Items.Add(demoItem);
         }
 

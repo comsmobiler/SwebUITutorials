@@ -682,7 +682,6 @@ namespace SwebuiDemo.Demo
             this.image1.ResourceID = "";
             this.image1.ResourcePath = "upload";
             this.image1.Size = new System.Drawing.Size(0, 216);
-            this.image1.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
             this.image1.SourceHotReadload = true;
             // 
             // animation1

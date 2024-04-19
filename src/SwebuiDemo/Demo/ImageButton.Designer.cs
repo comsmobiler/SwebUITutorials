@@ -30,7 +30,7 @@ namespace SwebuiDemo.Demo
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(0, 100);
             this.panel1.Touchable = true;
-            this.panel1.Press += new System.EventHandler(this.panel1_Press);
+            this.panel1.Press += new SwebMousePressEventHandler(this.panel1_Press);
             // 
             // image1
             // 

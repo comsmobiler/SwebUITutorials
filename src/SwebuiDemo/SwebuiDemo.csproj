@@ -78,11 +78,23 @@
     <Compile Include="Demo\demoCustm.Designer.cs">
       <DependentUpon>demoCustm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Demo\demoEditer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoEditer.Designer.cs">
+      <DependentUpon>demoEditer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Demo\demoEditUserTemplate.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Demo\demoEditUserTemplate.designer.cs">
       <DependentUpon>demoEditUserTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo\demoPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Demo\demoPanel.Designer.cs">
+      <DependentUpon>demoPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="Demo\demoPlugins.cs">
       <SubType>Component</SubType>
@@ -195,8 +207,14 @@
     <EmbeddedResource Include="Demo\demoCustm.resx">
       <DependentUpon>demoCustm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Demo\demoEditer.resx">
+      <DependentUpon>demoEditer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Demo\demoEditUserTemplate.resx">
       <DependentUpon>demoEditUserTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo\demoPanel.resx">
+      <DependentUpon>demoPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Demo\demoPlugins.resx">
       <DependentUpon>demoPlugins.cs</DependentUpon>
