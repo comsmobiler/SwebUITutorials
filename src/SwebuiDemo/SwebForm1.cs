@@ -83,6 +83,7 @@ namespace SwebuiDemo
         private void tabPageView1_PageClosed(object sender, TabPageViewClosedEventArgs e)
         {
             titleList.RemoveAt(e.PageIndex);
+            this.tabPageView1.Titles = titleList.ToArray();
             orderDict.Remove(itemsList[e.PageIndex]);
             itemsList.RemoveAt(e.PageIndex);
             GC.Collect();
